@@ -1,0 +1,55 @@
+\section{Core certificates}
+
+The QED ledger closes with
+\[
+\text{proved by kernel}=6,\quad
+\text{certified}=7,\quad
+\text{planned}=0.
+\]
+The ledger reports \texttt{qed\_complete=True}.
+
+\subsection{Exact edge-set identity}
+
+The exact edge-set identity certificate regenerates \(X_\sigma\) from the kernel payload and compares it to the recorded canonical edge list. It reports:
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Quantity & Value \\
+\midrule
+Generated edges & 3600 \\
+Recorded edges & 3600 \\
+Missing from generated & 0 \\
+Extra in generated & 0 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The generated and recorded hashes agree:
+\[
+\texttt{fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5}.
+\]
+
+\subsection{Connectedness}
+
+The connectedness certificate builds a BFS spanning tree from root vertex 0. It reaches 900 vertices and records 899 parent edges. Since a spanning tree on 900 vertices has 899 edges, this certifies connectedness.
+
+\subsection{Diameter and radius}
+
+The metric certificate performs all-source BFS over the 900 vertices. It reports
+\[
+\operatorname{diam}(X_\sigma)=8,
+\qquad
+\operatorname{rad}(X_\sigma)=6.
+\]
+The center count is 349, and the first recorded diameter witness pair is [198, 623].
+
+The eccentricity counts are:
+\[
+{'6': 349, '7': 541, '8': 10}.
+\]
+The distance distribution is:
+\[
+{'1': 3600, '2': 17710, '3': 60345, '4': 131446, '5': 143177, '6': 45600, '7': 2667, '8': 5}.
+\]
+

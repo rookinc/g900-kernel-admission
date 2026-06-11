@@ -1,0 +1,36 @@
+\section{The finite construction kernel}
+
+\begin{definition}[Construction kernel]
+Let
+\[
+K_{900}=(G_{15},G_{60},\sigma,h)
+\]
+where \(G_{15}\) is a 15-vertex slot graph with 30 edges, \(G_{60}\) is a 60-vertex fiber graph with 120 edges, \(\sigma:E(G_{15})\to \mathbb F_2\) is a carrier signing, and
+\[
+h(x)=x+30 \pmod{60}
+\]
+is the half-flip involution on the fiber coordinates.
+\end{definition}
+
+The generated graph \(X_\sigma\) has vertex set
+\[
+V(X_\sigma)=V(G_{15})\times V(G_{60}).
+\]
+Thus \(|V(X_\sigma)|=15\cdot 60=900\).
+
+The edge set is the union of internal fiber edges and carrier edges. Internal edges are
+\[
+(t,x)\sim(t,y)
+\quad\text{whenever}\quad
+\{x,y\}\in E(G_{60}).
+\]
+Carrier edges are
+\[
+(t,x)\sim (u,\phi_{\sigma(t,u)}(x))
+\quad\text{whenever}\quad
+\{t,u\}\in E(G_{15}),
+\]
+where \(\phi_0(x)=x\) and \(\phi_1(x)=h(x)=x+30 \pmod{60}\).
+
+There are \(15\cdot 120=1800\) internal edges and \(30\cdot 60=1800\) carrier edges, for a total of 3600 edges. Each vertex has four internal neighbors and four carrier neighbors, so the generated graph is 8-regular.
+

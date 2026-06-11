@@ -1,0 +1,10 @@
+{
+  "certificate_claims_certified": 7,
+  "direct_kernel_claims_proved": 6,
+  "entrypoint": "main.tex",
+  "not_certified_claims": 0,
+  "qed_complete": true,
+  "remaining_planned_claims": 0,
+  "tag": "g900-kernel-admission-bounded-qed-v1.0.0",
+  "zip": "dist/g900_kernel_admission_bounded_qed_overleaf.zip"
+}

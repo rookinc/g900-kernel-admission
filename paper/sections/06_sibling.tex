@@ -1,0 +1,57 @@
+\section{Sibling signing and sibling graph separation}
+
+The sibling certificate pair addresses a nearby signed carrier variant. The point is not to invalidate the sibling, but to show that it is genuinely distinct from the canonical signing and from the canonical graph.
+
+\subsection{Non-switching certificate}
+
+The sibling signing differs from the canonical signing on six slot edges:
+\[
+(5,10),(5,14),(10,14),(9,11),(9,12),(11,12).
+\]
+These form two triangle supports:
+\[
+(5,10,14),\qquad (9,11,12).
+\]
+The F2 switching equation is not solvable:
+\[
+\operatorname{rank}(A)=14,
+\qquad
+\operatorname{rank}([A|b])=15.
+\]
+Since the augmented rank exceeds the coefficient rank, the sibling delta is not a coboundary. Therefore the sibling signing is not switching-equivalent to the canonical signing.
+
+\subsection{Full graph separation}
+
+The sibling full graph separation certificate builds the sibling graph from its signing table and compares exact graph invariants.
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Quantity & Value \\
+\midrule
+Canonical edges & 3600 \\
+Sibling edges & 3600 \\
+Intersection edges & 3240 \\
+Canonical-only edges & 360 \\
+Sibling-only edges & 360 \\
+Symmetric difference & 720 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The two graphs share diameter and radius:
+\[
+\operatorname{diam}=8,\qquad \operatorname{rad}=6.
+\]
+However, their eccentricity counts and distance distributions differ. Since distance distribution is a graph invariant, this proves non-isomorphism for the recorded sibling graph.
+
+Canonical distance distribution:
+\[
+{'1': 3600, '2': 17710, '3': 60345, '4': 131446, '5': 143177, '6': 45600, '7': 2667, '8': 5}.
+\]
+
+Sibling distance distribution:
+\[
+{'1': 3600, '2': 17700, '3': 60642, '4': 130810, '5': 142395, '6': 46225, '7': 3144, '8': 34}.
+\]
+
