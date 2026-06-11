@@ -1,0 +1,29 @@
+{
+  "boundary": [
+    "This certificate proves edge-set equality from the finite kernel payload.",
+    "It does not prove connectedness, diameter, radius, or uniqueness.",
+    "It does not use renderer output, visual geometry, census identity, or physical interpretation."
+  ],
+  "certificate": "exact_edge_set_identity",
+  "claim": "Gen(K_900) equals the recorded canonical X_sigma edge set.",
+  "counts": {
+    "carrier_rows": 30,
+    "extra_in_generated": 0,
+    "g15_slot_edges": 30,
+    "g60_local_edges": 120,
+    "generated_edges": 3600,
+    "missing_from_generated": 0,
+    "recorded_edges": 3600
+  },
+  "hashes": {
+    "generated_edge_set_sha256": "fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5",
+    "recorded_edge_set_sha256": "fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5"
+  },
+  "source_files": {
+    "carrier_signing_table": "source/kernel_payload/carrier_signing_table.csv",
+    "g15_slot_edges": "source/kernel_payload/g15_slot_edges.csv",
+    "g60_local_edges": "source/kernel_payload/g60_local_edges.csv",
+    "recorded_x_sigma_edges": "source/kernel_payload/x_sigma_edges.csv"
+  },
+  "verification_ok": true
+}
