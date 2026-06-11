@@ -1,6 +1,7 @@
 # QED status ledger verification
 
 - verification_ok: True
+- qed_complete: True
 
 ## Checks
 
@@ -9,12 +10,14 @@
 - diameter_certified: True
 - radius_certified: True
 - baseline_separation_certified: True
+- sibling_non_switching_certified: True
+- sibling_full_graph_separation_certified: True
 - direct_kernel_proof_count_is_6: True
-- certified_count_is_5: True
-- planned_remaining_count_is_2: True
+- certified_count_is_7: True
+- planned_remaining_count_is_0: True
+- not_certified_count_is_0: True
 
 ## Status counts
 
-- certified: 5
-- planned: 2
+- certified: 7
 - proved_by_kernel: 6

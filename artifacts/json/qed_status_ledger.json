@@ -1,15 +1,20 @@
 {
   "boundary": [
-    "This is a status overlay, not a replacement for the claim ledger.",
-    "QED is not complete until the remaining planned claims are certified or removed from the theorem.",
-    "No uniqueness, census identity, physical interpretation, or sibling invalidity is claimed."
+    "This closes the bounded Project 18 QED ledger for the listed claim set.",
+    "This does not claim uniqueness among all possible signed carriers.",
+    "This does not claim census identity.",
+    "This does not claim physical interpretation.",
+    "This does not claim sibling invalidity.",
+    "The result is a finite kernel-admission theorem package for the explicit generated candidate and listed separations."
   ],
   "certified": [
     "exact_edge_set_identity",
     "connectedness",
     "diameter",
     "radius",
-    "baseline_separation"
+    "baseline_separation",
+    "sibling_non_switching",
+    "sibling_full_graph_separation"
   ],
   "claims": [
     {
@@ -76,27 +81,28 @@
     },
     {
       "id": "sibling_non_switching",
-      "status": "planned",
-      "support": "needs F2 coboundary obstruction certificate internal to Project 18"
+      "status": "certified",
+      "support": "artifacts/json/sibling_non_switching_certificate.json",
+      "verification_ok": true
     },
     {
       "id": "sibling_full_graph_separation",
-      "status": "planned",
-      "support": "needs exact invariant separation certificate internal to Project 18"
+      "status": "certified",
+      "support": "artifacts/json/sibling_full_graph_separation_certificate.json",
+      "verification_ok": true
     }
   ],
   "current_summary": {
-    "certificate_claims_certified": 5,
+    "certificate_claims_certified": 7,
     "direct_kernel_claims_proved": 6,
-    "qed_complete": false,
-    "remaining_planned_claims": 2
+    "not_certified_claims": 0,
+    "qed_complete": true,
+    "remaining_planned_claims": 0
   },
   "ledger": "qed_status_ledger",
   "ledger_ok": true,
-  "planned": [
-    "sibling_non_switching",
-    "sibling_full_graph_separation"
-  ],
+  "not_certified": [],
+  "planned": [],
   "project": "18-g900-kernel-admission",
   "proved_by_kernel": [
     "product_register_size",
@@ -107,18 +113,20 @@
     "regularity"
   ],
   "status_counts": {
-    "certified": 5,
-    "planned": 2,
+    "certified": 7,
     "proved_by_kernel": 6
   },
   "verification_checks": {
     "baseline_separation_certified": true,
-    "certified_count_is_5": true,
+    "certified_count_is_7": true,
     "connectedness_certified": true,
     "diameter_certified": true,
     "direct_kernel_proof_count_is_6": true,
     "exact_edge_set_identity_certified": true,
-    "planned_remaining_count_is_2": true,
-    "radius_certified": true
+    "not_certified_count_is_0": true,
+    "planned_remaining_count_is_0": true,
+    "radius_certified": true,
+    "sibling_full_graph_separation_certified": true,
+    "sibling_non_switching_certified": true
   }
 }

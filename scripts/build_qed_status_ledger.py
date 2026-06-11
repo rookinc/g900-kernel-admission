@@ -8,6 +8,8 @@ EXACT = ROOT / "artifacts/json/exact_edge_set_identity_certificate.json"
 CONN = ROOT / "artifacts/json/connectedness_certificate.json"
 METRIC = ROOT / "artifacts/json/metric_certificate.json"
 BASELINE = ROOT / "artifacts/json/baseline_separation_certificate.json"
+SIB_NON = ROOT / "artifacts/json/sibling_non_switching_certificate.json"
+SIB_FULL = ROOT / "artifacts/json/sibling_full_graph_separation_certificate.json"
 
 OUT_JSON = ROOT / "artifacts/json/qed_status_ledger.json"
 OUT_MD = ROOT / "admission/003_qed_status_ledger.md"
@@ -18,19 +20,30 @@ def read_json(path):
         return None
     return json.loads(path.read_text())
 
-def main():
-    exact = read_json(EXACT)
-    conn = read_json(CONN)
-    metric = read_json(METRIC)
-    baseline = read_json(BASELINE)
+def cert_ok(path):
+    data = read_json(path)
+    return bool(data and data.get("verification_ok") is True), data
 
-    exact_ok = bool(exact and exact.get("verification_ok") is True)
-    conn_ok = bool(conn and conn.get("verification_ok") is True)
-    metric_ok = bool(metric and metric.get("verification_ok") is True)
-    baseline_ok = bool(baseline and baseline.get("verification_ok") is True)
+def main():
+    exact_ok, exact = cert_ok(EXACT)
+    conn_ok, conn = cert_ok(CONN)
+    metric_ok, metric = cert_ok(METRIC)
+    baseline_ok, baseline = cert_ok(BASELINE)
+    sib_non_ok, sib_non = cert_ok(SIB_NON)
+    sib_full_ok, sib_full = cert_ok(SIB_FULL)
 
     diameter_ok = bool(metric_ok and metric.get("diameter") == 8)
     radius_ok = bool(metric_ok and metric.get("radius") == 6)
+
+    sib_non_obstruction_ok = bool(
+        sib_non_ok and
+        sib_non.get("linear_obstruction", {}).get("solvable") is False
+    )
+
+    sib_full_separation_ok = bool(
+        sib_full_ok and
+        sib_full.get("separation_flags", {}).get("exact_graph_invariant_separates") is True
+    )
 
     claims = [
         {
@@ -97,13 +110,15 @@ def main():
         },
         {
             "id": "sibling_non_switching",
-            "status": "planned",
-            "support": "needs F2 coboundary obstruction certificate internal to Project 18"
+            "status": "certified" if sib_non_obstruction_ok else "not_certified",
+            "support": "artifacts/json/sibling_non_switching_certificate.json",
+            "verification_ok": sib_non_obstruction_ok
         },
         {
             "id": "sibling_full_graph_separation",
-            "status": "planned",
-            "support": "needs exact invariant separation certificate internal to Project 18"
+            "status": "certified" if sib_full_separation_ok else "not_certified",
+            "support": "artifacts/json/sibling_full_graph_separation_certificate.json",
+            "verification_ok": sib_full_separation_ok
         }
     ]
 
@@ -114,6 +129,7 @@ def main():
     certified_ids = [c["id"] for c in claims if c["status"] == "certified"]
     proved_ids = [c["id"] for c in claims if c["status"] == "proved_by_kernel"]
     planned_ids = [c["id"] for c in claims if c["status"] == "planned"]
+    not_certified_ids = [c["id"] for c in claims if c["status"] == "not_certified"]
 
     verification_checks = {
         "exact_edge_set_identity_certified": exact_ok,
@@ -121,12 +137,16 @@ def main():
         "diameter_certified": diameter_ok,
         "radius_certified": radius_ok,
         "baseline_separation_certified": baseline_ok,
+        "sibling_non_switching_certified": sib_non_obstruction_ok,
+        "sibling_full_graph_separation_certified": sib_full_separation_ok,
         "direct_kernel_proof_count_is_6": len(proved_ids) == 6,
-        "certified_count_is_5": len(certified_ids) == 5,
-        "planned_remaining_count_is_2": len(planned_ids) == 2
+        "certified_count_is_7": len(certified_ids) == 7,
+        "planned_remaining_count_is_0": len(planned_ids) == 0,
+        "not_certified_count_is_0": len(not_certified_ids) == 0
     }
 
     ledger_ok = all(verification_checks.values())
+    qed_complete = ledger_ok and len(planned_ids) == 0 and len(not_certified_ids) == 0
 
     ledger = {
         "project": "18-g900-kernel-admission",
@@ -137,17 +157,22 @@ def main():
         "proved_by_kernel": proved_ids,
         "certified": certified_ids,
         "planned": planned_ids,
+        "not_certified": not_certified_ids,
         "verification_checks": verification_checks,
         "current_summary": {
             "direct_kernel_claims_proved": len(proved_ids),
             "certificate_claims_certified": len(certified_ids),
             "remaining_planned_claims": len(planned_ids),
-            "qed_complete": False
+            "not_certified_claims": len(not_certified_ids),
+            "qed_complete": qed_complete
         },
         "boundary": [
-            "This is a status overlay, not a replacement for the claim ledger.",
-            "QED is not complete until the remaining planned claims are certified or removed from the theorem.",
-            "No uniqueness, census identity, physical interpretation, or sibling invalidity is claimed."
+            "This closes the bounded Project 18 QED ledger for the listed claim set.",
+            "This does not claim uniqueness among all possible signed carriers.",
+            "This does not claim census identity.",
+            "This does not claim physical interpretation.",
+            "This does not claim sibling invalidity.",
+            "The result is a finite kernel-admission theorem package for the explicit generated candidate and listed separations."
         ]
     }
 
@@ -160,7 +185,8 @@ def main():
     lines.append("- direct_kernel_claims_proved: " + str(len(proved_ids)))
     lines.append("- certificate_claims_certified: " + str(len(certified_ids)))
     lines.append("- remaining_planned_claims: " + str(len(planned_ids)))
-    lines.append("- qed_complete: False")
+    lines.append("- not_certified_claims: " + str(len(not_certified_ids)))
+    lines.append("- qed_complete: " + str(qed_complete))
     lines.append("")
     lines.append("## Proved by kernel")
     lines.append("")
@@ -174,8 +200,19 @@ def main():
     lines.append("")
     lines.append("## Planned")
     lines.append("")
-    for item in planned_ids:
-        lines.append("- " + item)
+    if planned_ids:
+        for item in planned_ids:
+            lines.append("- " + item)
+    else:
+        lines.append("- none")
+    lines.append("")
+    lines.append("## Not certified")
+    lines.append("")
+    if not_certified_ids:
+        for item in not_certified_ids:
+            lines.append("- " + item)
+    else:
+        lines.append("- none")
     lines.append("")
     lines.append("## Claim table")
     lines.append("")
@@ -197,6 +234,7 @@ def main():
     verify_lines.append("# QED status ledger verification")
     verify_lines.append("")
     verify_lines.append("- verification_ok: " + str(ledger_ok))
+    verify_lines.append("- qed_complete: " + str(qed_complete))
     verify_lines.append("")
     verify_lines.append("## Checks")
     verify_lines.append("")
@@ -212,11 +250,12 @@ def main():
     OUT_VERIFY.write_text("\n".join(verify_lines))
 
     print("qed_status_ledger_ok=" + str(ledger_ok))
+    print("qed_complete=" + str(qed_complete))
     print("proved_by_kernel_count=" + str(len(proved_ids)))
     print("certified_count=" + str(len(certified_ids)))
     print("planned_count=" + str(len(planned_ids)))
+    print("not_certified_count=" + str(len(not_certified_ids)))
     print("certified=" + ",".join(certified_ids))
-    print("planned=" + ",".join(planned_ids))
     print("wrote", OUT_JSON)
     print("wrote", OUT_MD)
     print("wrote", OUT_VERIFY)

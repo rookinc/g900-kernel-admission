@@ -2,9 +2,10 @@
 
 - ledger_ok: True
 - direct_kernel_claims_proved: 6
-- certificate_claims_certified: 5
-- remaining_planned_claims: 2
-- qed_complete: False
+- certificate_claims_certified: 7
+- remaining_planned_claims: 0
+- not_certified_claims: 0
+- qed_complete: True
 
 ## Proved by kernel
 
@@ -22,11 +23,16 @@
 - diameter
 - radius
 - baseline_separation
+- sibling_non_switching
+- sibling_full_graph_separation
 
 ## Planned
 
-- sibling_non_switching
-- sibling_full_graph_separation
+- none
+
+## Not certified
+
+- none
 
 ## Claim table
 
@@ -54,13 +60,16 @@
   - value: 6
 - baseline_separation: certified
   - support: artifacts/json/baseline_separation_certificate.json
-- sibling_non_switching: planned
-  - support: needs F2 coboundary obstruction certificate internal to Project 18
-- sibling_full_graph_separation: planned
-  - support: needs exact invariant separation certificate internal to Project 18
+- sibling_non_switching: certified
+  - support: artifacts/json/sibling_non_switching_certificate.json
+- sibling_full_graph_separation: certified
+  - support: artifacts/json/sibling_full_graph_separation_certificate.json
 
 ## Boundary
 
-- This is a status overlay, not a replacement for the claim ledger.
-- QED is not complete until the remaining planned claims are certified or removed from the theorem.
-- No uniqueness, census identity, physical interpretation, or sibling invalidity is claimed.
+- This closes the bounded Project 18 QED ledger for the listed claim set.
+- This does not claim uniqueness among all possible signed carriers.
+- This does not claim census identity.
+- This does not claim physical interpretation.
+- This does not claim sibling invalidity.
+- The result is a finite kernel-admission theorem package for the explicit generated candidate and listed separations.
