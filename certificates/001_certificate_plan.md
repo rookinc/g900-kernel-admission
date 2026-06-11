@@ -2,7 +2,7 @@
 
 This plan defines the finite certificates needed to promote Project 18 from kernel definition to bounded theorem admission.
 
-No certificate is created here. This file only defines the target shape of each certificate.
+No heavy certificate is created here. This file only defines the target shape of each certificate.
 
 ## Certificate 1: connectedness
 
