@@ -24,13 +24,12 @@ The edge set is the union of internal fiber edges and carrier edges. Internal ed
 \quad\text{whenever}\quad
 \{x,y\}\in E(G_{60}).
 \]
-Carrier edges are
+Carrier edges are defined as follows. For each slot edge \(\{t,u\}\in E(G_{15})\) and each local state \(x\in V(G_{60})\), add the edge
 \[
-(t,x)\sim (u,\phi_{\sigma(t,u)}(x))
-\quad\text{whenever}\quad
-\{t,u\}\in E(G_{15}),
+(t,x)\sim (u,\phi_{\sigma(t,u)}(x)),
 \]
-where \(\phi_0(x)=x\) and \(\phi_1(x)=h(x)=x+30 \pmod{60}\).
+where \(\phi_0(x)=x\) is the identity carrier and
+\(\phi_1(x)=h(x)=x+30 \pmod{60}\) is the half-flip carrier. The name ``half-flip'' reflects that \(h\) is an involution pairing the 60 local states into 30 opposite pairs.
 
 There are \(15\cdot 120=1800\) internal edges and \(30\cdot 60=1800\) carrier edges, for a total of 3600 edges. Each vertex has four internal neighbors and four carrier neighbors, so the generated graph is 8-regular.
 
