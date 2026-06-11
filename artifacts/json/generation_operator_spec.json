@@ -1,0 +1,58 @@
+{
+  "operator": "Gen",
+  "input_kernel": "K_900",
+  "output_graph": "X_sigma",
+  "kernel_components": [
+    "G15",
+    "G60",
+    "sigma",
+    "h"
+  ],
+  "inputs": {
+    "G15": {
+      "role": "slot_graph",
+      "required_data": "edge_list",
+      "vertex_count": 15,
+      "edge_count": 30
+    },
+    "G60": {
+      "role": "thalion_fiber",
+      "required_data": "edge_list",
+      "vertex_count": 60,
+      "edge_count": 120
+    },
+    "sigma": {
+      "role": "carrier_signing",
+      "domain": "E(G15)",
+      "codomain": "F2",
+      "required_data": "30 edge signs"
+    },
+    "h": {
+      "role": "half_flip_involution",
+      "rule": "h(x) = x + 30 mod 60"
+    }
+  },
+  "generated_vertex_set": "V(G15) x V(G60)",
+  "generated_vertex_count": 900,
+  "edge_layers": {
+    "internal": {
+      "rule": "(t,x) ~ (t,y) whenever {x,y} in E(G60)",
+      "edge_count": 1800
+    },
+    "carrier": {
+      "rule": "(t,x) ~ (u,phi_sigma({t,u})(x)) whenever {t,u} in E(G15)",
+      "edge_count": 1800
+    }
+  },
+  "generated_edge_count": 3600,
+  "deterministic": true,
+  "non_inputs": [
+    "renderer",
+    "visual ring geometry",
+    "screen coordinates",
+    "Aletheos surface coordinates",
+    "census identifier",
+    "physical interpretation"
+  ],
+  "boundary": "The operator generates the graph. It does not by itself prove all invariants of the graph."
+}
