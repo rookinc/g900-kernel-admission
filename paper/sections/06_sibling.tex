@@ -4,26 +4,26 @@ The sibling certificate pair addresses a nearby signed carrier variant. The poin
 
 \subsection{Non-switching certificate}
 
-The sibling signing differs from the canonical signing on six slot edges:
+The sibling signing is defined as the canonical signing plus a delta supported on six slot edges:
 \[
 (5,10),(5,14),(10,14),(9,11),(9,12),(11,12).
 \]
-These form two triangle supports:
+Equivalently, these six signs are toggled and all other slot-edge signs are left unchanged. The support consists of two triangle supports:
 \[
 (5,10,14),\qquad (9,11,12).
 \]
-The \( \mathbb{F}_2 \) switching equation is not solvable:
-\[
-\operatorname{rank}(A)=14,
-\qquad
-\operatorname{rank}([A|b])=15.
-\]
-Here \(B\) is the vertex-edge incidence coboundary matrix of the slot graph over \(\mathbb F_2\). Its columns are indexed by the 15 slot vertices and its rows are indexed by the 30 slot edges. For an edge \(e=\{u,v\}\), the corresponding row has ones in the \(u\)- and \(v\)-columns and zeros elsewhere. A switching function is a vector \(g\in\mathbb F_2^{15}\), and the signing difference is a vector \(\delta\in\mathbb F_2^{30}\). The switching equation is
+
+Let \(B\) be the vertex-edge coboundary matrix of the slot graph over \(\mathbb F_2\). The columns of \(B\) are indexed by the 15 slot vertices and the rows are indexed by the 30 slot edges. For an edge \(e=\{u,v\}\), the row of \(B\) has ones in the \(u\)- and \(v\)-columns and zeros elsewhere. A switching function is a vector \(g\in\mathbb F_2^{15}\), and the signing difference is a vector \(\delta\in\mathbb F_2^{30}\). With this convention, switching equivalence is tested by the equation
 \[
 Bg=\delta.
 \]
-It is solvable exactly when the signing difference is a coboundary.
 
+The certificate reports that this equation is not solvable:
+\[
+\operatorname{rank}(B)=14,
+\qquad
+\operatorname{rank}([B|\delta])=15.
+\]
 Since the augmented rank exceeds the coefficient rank, the sibling delta is not a coboundary. Therefore the sibling signing is not switching-equivalent to the canonical signing.
 
 \subsection{Full graph separation}
