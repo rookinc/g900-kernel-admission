@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXACT = ROOT / "artifacts/json/exact_edge_set_identity_certificate.json"
 CONN = ROOT / "artifacts/json/connectedness_certificate.json"
 METRIC = ROOT / "artifacts/json/metric_certificate.json"
+BASELINE = ROOT / "artifacts/json/baseline_separation_certificate.json"
 
 OUT_JSON = ROOT / "artifacts/json/qed_status_ledger.json"
 OUT_MD = ROOT / "admission/003_qed_status_ledger.md"
@@ -21,10 +22,12 @@ def main():
     exact = read_json(EXACT)
     conn = read_json(CONN)
     metric = read_json(METRIC)
+    baseline = read_json(BASELINE)
 
     exact_ok = bool(exact and exact.get("verification_ok") is True)
     conn_ok = bool(conn and conn.get("verification_ok") is True)
     metric_ok = bool(metric and metric.get("verification_ok") is True)
+    baseline_ok = bool(baseline and baseline.get("verification_ok") is True)
 
     diameter_ok = bool(metric_ok and metric.get("diameter") == 8)
     radius_ok = bool(metric_ok and metric.get("radius") == 6)
@@ -88,8 +91,9 @@ def main():
         },
         {
             "id": "baseline_separation",
-            "status": "planned",
-            "support": "needs baseline metric certificate internal to Project 18"
+            "status": "certified" if baseline_ok else "not_certified",
+            "support": "artifacts/json/baseline_separation_certificate.json",
+            "verification_ok": baseline_ok
         },
         {
             "id": "sibling_non_switching",
@@ -116,8 +120,10 @@ def main():
         "connectedness_certified": conn_ok,
         "diameter_certified": diameter_ok,
         "radius_certified": radius_ok,
+        "baseline_separation_certified": baseline_ok,
         "direct_kernel_proof_count_is_6": len(proved_ids) == 6,
-        "planned_remaining_count_is_3": len(planned_ids) == 3
+        "certified_count_is_5": len(certified_ids) == 5,
+        "planned_remaining_count_is_2": len(planned_ids) == 2
     }
 
     ledger_ok = all(verification_checks.values())

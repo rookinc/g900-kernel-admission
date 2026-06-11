@@ -8,7 +8,8 @@
     "exact_edge_set_identity",
     "connectedness",
     "diameter",
-    "radius"
+    "radius",
+    "baseline_separation"
   ],
   "claims": [
     {
@@ -69,8 +70,9 @@
     },
     {
       "id": "baseline_separation",
-      "status": "planned",
-      "support": "needs baseline metric certificate internal to Project 18"
+      "status": "certified",
+      "support": "artifacts/json/baseline_separation_certificate.json",
+      "verification_ok": true
     },
     {
       "id": "sibling_non_switching",
@@ -84,15 +86,14 @@
     }
   ],
   "current_summary": {
-    "certificate_claims_certified": 4,
+    "certificate_claims_certified": 5,
     "direct_kernel_claims_proved": 6,
     "qed_complete": false,
-    "remaining_planned_claims": 3
+    "remaining_planned_claims": 2
   },
   "ledger": "qed_status_ledger",
   "ledger_ok": true,
   "planned": [
-    "baseline_separation",
     "sibling_non_switching",
     "sibling_full_graph_separation"
   ],
@@ -106,16 +107,18 @@
     "regularity"
   ],
   "status_counts": {
-    "certified": 4,
-    "planned": 3,
+    "certified": 5,
+    "planned": 2,
     "proved_by_kernel": 6
   },
   "verification_checks": {
+    "baseline_separation_certified": true,
+    "certified_count_is_5": true,
     "connectedness_certified": true,
     "diameter_certified": true,
     "direct_kernel_proof_count_is_6": true,
     "exact_edge_set_identity_certified": true,
-    "planned_remaining_count_is_3": true,
+    "planned_remaining_count_is_2": true,
     "radius_certified": true
   }
 }

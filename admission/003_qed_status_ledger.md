@@ -2,8 +2,8 @@
 
 - ledger_ok: True
 - direct_kernel_claims_proved: 6
-- certificate_claims_certified: 4
-- remaining_planned_claims: 3
+- certificate_claims_certified: 5
+- remaining_planned_claims: 2
 - qed_complete: False
 
 ## Proved by kernel
@@ -21,10 +21,10 @@
 - connectedness
 - diameter
 - radius
+- baseline_separation
 
 ## Planned
 
-- baseline_separation
 - sibling_non_switching
 - sibling_full_graph_separation
 
@@ -52,8 +52,8 @@
 - radius: certified
   - support: artifacts/json/metric_certificate.json
   - value: 6
-- baseline_separation: planned
-  - support: needs baseline metric certificate internal to Project 18
+- baseline_separation: certified
+  - support: artifacts/json/baseline_separation_certificate.json
 - sibling_non_switching: planned
   - support: needs F2 coboundary obstruction certificate internal to Project 18
 - sibling_full_graph_separation: planned
