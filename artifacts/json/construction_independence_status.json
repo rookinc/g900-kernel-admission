@@ -1,0 +1,30 @@
+{
+  "project": "18-g900-kernel-admission",
+  "status": "construction_independent",
+  "source_project": "17-g900-theorem-proof",
+  "source_role": "frozen provenance checkpoint",
+  "source_tag": "g900-theorem-proof-v1.0.0-rc1",
+  "kernel_payload": [
+    "source/kernel_payload/g15_slot_edges.csv",
+    "source/kernel_payload/g60_local_edges.csv",
+    "source/kernel_payload/carrier_signing_table.csv",
+    "source/kernel_payload/x_sigma_edges.csv"
+  ],
+  "construction_independent_of_project17": true,
+  "qed_independent": false,
+  "remaining_certificate_targets": [
+    "connectedness",
+    "diameter",
+    "radius",
+    "exact_edge_set_identity",
+    "sibling_non_switching",
+    "sibling_full_graph_separation",
+    "baseline_separation"
+  ],
+  "not_claimed": [
+    "uniqueness",
+    "census_identification",
+    "physical_interpretation",
+    "final_public_theorem_status"
+  ]
+}
