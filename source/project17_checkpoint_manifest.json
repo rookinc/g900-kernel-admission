@@ -1,0 +1,87 @@
+{
+  "admission_use": "Frozen source checkpoint for Project 18 kernel admission.",
+  "boundary": [
+    "Project 18 does not modify Project 17.",
+    "Project 18 studies kernel admission for the object frozen in Project 17.",
+    "This manifest is a pointer and hash record, not a new theorem claim."
+  ],
+  "missing_file_count": 0,
+  "missing_files": [],
+  "source_branch": "main",
+  "source_commit": "b675be4628da1688b60770c3599ade74bbfa0a7d",
+  "source_path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/17-g900-theorem-proof",
+  "source_project": "17-g900-theorem-proof",
+  "source_status_short": "",
+  "source_tags_at_head": [
+    "g900-theorem-proof-v1.0.0-rc1"
+  ],
+  "source_worktree_clean": true,
+  "tracked_file_count": 13,
+  "tracked_files": [
+    {
+      "bytes": 759,
+      "path": "README.md",
+      "sha256": "a6d2aec8693c6188717c0653571d32079d4ca2cdbfdc0a981e04e7663db26687"
+    },
+    {
+      "bytes": 1332,
+      "path": "paper/main.tex",
+      "sha256": "21f88ac6c96fcc9e12586e1a86814f52752489f1352bcdff8b84de7d01b7df49"
+    },
+    {
+      "bytes": 3366,
+      "path": "paper/sections/04_finite_lemmas.tex",
+      "sha256": "f410707aa061045a122de4a7c5c22e00808cbf84ebf30b4db1af6894f26ce9ff"
+    },
+    {
+      "bytes": 3573,
+      "path": "paper/sections/05_main_theorem.tex",
+      "sha256": "77fc8f8f8ddb38be56c1a46dc594097c949ad8c483bab61ba9a630d0577ef413"
+    },
+    {
+      "bytes": 2128,
+      "path": "paper/sections/10_admission_reproducibility_summary.tex",
+      "sha256": "658c55d8d5da3e203f457278bb46d6bf0a16aa850873b00bc38a8afa2fe34342"
+    },
+    {
+      "bytes": 1530,
+      "path": "paper/sections/11_sibling_variant.tex",
+      "sha256": "9ecc528a376f2f9d8599bad775a7a0bf25b8bdce06301584ee46adcd7592637f"
+    },
+    {
+      "bytes": 1155,
+      "path": "paper/sections/12_boundary_and_next_steps.tex",
+      "sha256": "c4c751abc4d25240aeb819d1166cc6a67f3c1677bbc98c0645a17f48dc49cdee"
+    },
+    {
+      "bytes": 2068,
+      "path": "paper/sections/appendix_source_object_admission.tex",
+      "sha256": "89828e92d03fa1eee18915a675371fec65183bc0b22ce8041cacba9c930a197c"
+    },
+    {
+      "bytes": 2289,
+      "path": "paper/sections/appendix_carrier_law_admission.tex",
+      "sha256": "230b74980e5f24f6a8f3c489a8ed53f13705c4a08202204fb213fa096b4f04be"
+    },
+    {
+      "bytes": 1735,
+      "path": "paper/sections/appendix_generated_graph_reproducibility.tex",
+      "sha256": "8b34e0742e3c6872e391b4bd45a0acc1b217be4b5c7816fc6f16dc42c93f53ee"
+    },
+    {
+      "bytes": 1689,
+      "path": "paper/sections/appendix_admission_spine_verification.tex",
+      "sha256": "e705a10e2ca79a84c5b6c04e4f2c38e13ec31ec456b2974a26e94770ca3ad5ea"
+    },
+    {
+      "bytes": 1859,
+      "path": "paper/sections/appendix_receipts_and_source_map.tex",
+      "sha256": "441004407b24b56be1e1e596ebabbd9e9d7ae8b0187c0bfe82f672094d8497a2"
+    },
+    {
+      "bytes": 21129,
+      "path": "dist/g900_theorem_proof_package_overleaf.zip",
+      "sha256": "1496086d9e6522f2ee78e8e3074e5f2e72844ca07bb99c18b1346070ad638227"
+    }
+  ]
+}
