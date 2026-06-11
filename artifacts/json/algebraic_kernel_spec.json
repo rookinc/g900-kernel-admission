@@ -1,0 +1,44 @@
+{
+  "project": "18-g900-kernel-admission",
+  "spec": "algebraic_kernel",
+  "foundation": "finite set theory",
+  "matrices": {
+    "A15": "15 x 15 adjacency matrix of G15",
+    "A60": "60 x 60 adjacency matrix of G60",
+    "I15": "15 x 15 identity matrix",
+    "I60": "60 x 60 identity matrix",
+    "H": "60 x 60 half-flip permutation matrix"
+  },
+  "half_flip_rule": "h(x) = x + 30 mod 60",
+  "internal_adjacency": "A_internal = I15 kron A60",
+  "carrier_adjacency": "15 x 15 block matrix with I60, H, or 0 blocks according to E15 and sigma",
+  "generated_adjacency": "AX = A_internal + A_carrier",
+  "direct_algebraic_claims": [
+    "vertex_count = 900",
+    "internal_edges = 1800",
+    "carrier_edges = 1800",
+    "total_edges = 3600",
+    "row_sum(AX) = 8"
+  ],
+  "boolean_reachability_claims": [
+    "connectedness",
+    "diameter",
+    "radius"
+  ],
+  "f2_claims": [
+    "sibling_non_switching"
+  ],
+  "exact_comparison_claims": [
+    "exact_edge_set_identity",
+    "sibling_full_graph_separation",
+    "baseline_separation"
+  ],
+  "non_foundational_inputs": [
+    "renderer",
+    "visual geometry",
+    "screen coordinates",
+    "graph census identifier",
+    "physical interpretation",
+    "project memory"
+  ]
+}
