@@ -1,0 +1,99 @@
+{
+  "ledger": "kernel_claim_ledger",
+  "project": "18-g900-kernel-admission",
+  "claim_classes": [
+    "direct_proof",
+    "certificate_required",
+    "external_boundary",
+    "not_claimed"
+  ],
+  "direct_proof": [
+    {
+      "id": "product_register_size",
+      "claim": "|V(G15) x V(G60)| = 15 * 60 = 900",
+      "depends_on": ["G15 vertex count", "G60 vertex count"]
+    },
+    {
+      "id": "internal_edge_count",
+      "claim": "15 copies of 120 G60 edges gives 1800 internal edges",
+      "depends_on": ["G15 vertex count", "G60 edge count"]
+    },
+    {
+      "id": "external_edge_count",
+      "claim": "30 slot edges times 60 carrier states gives 1800 external edges",
+      "depends_on": ["G15 edge count", "G60 vertex count", "carrier laws are permutations"]
+    },
+    {
+      "id": "total_edge_count",
+      "claim": "1800 internal + 1800 external = 3600 total edges",
+      "depends_on": ["internal_edge_count", "external_edge_count"]
+    },
+    {
+      "id": "degree_split",
+      "claim": "each vertex has 4 internal neighbors and 4 external neighbors",
+      "depends_on": ["G15 4-regularity", "G60 4-regularity", "carrier laws are permutations"]
+    },
+    {
+      "id": "regularity",
+      "claim": "each vertex has degree 8",
+      "depends_on": ["degree_split"]
+    }
+  ],
+  "certificate_required": [
+    {
+      "id": "connectedness",
+      "claim": "X_sigma is connected",
+      "required_certificate": "spanning tree or BFS reachability certificate"
+    },
+    {
+      "id": "diameter",
+      "claim": "diameter(X_sigma) = 8",
+      "required_certificate": "upper-bound all-pairs distance witness plus lower-bound pair at distance 8"
+    },
+    {
+      "id": "radius",
+      "claim": "radius(X_sigma) = 6",
+      "required_certificate": "center eccentricity certificate plus lower-bound proof that no radius below 6 exists"
+    },
+    {
+      "id": "exact_edge_set_identity",
+      "claim": "generated X_sigma equals recorded canonical candidate edge set",
+      "required_certificate": "sorted endpoint edge-set equality and hash equality"
+    },
+    {
+      "id": "sibling_non_switching",
+      "claim": "sibling signing is not switching-equivalent to canonical signing",
+      "required_certificate": "F2 coboundary obstruction certificate"
+    },
+    {
+      "id": "sibling_full_graph_separation",
+      "claim": "sibling graph is separated from canonical graph as a full graph",
+      "required_certificate": "exact invariant separation, preferably distance distribution or characteristic data"
+    }
+  ],
+  "external_boundary": [
+    {
+      "id": "census_identification",
+      "claim": "X_sigma has a census identifier",
+      "admission_rule": "do not claim unless independently established"
+    },
+    {
+      "id": "uniqueness",
+      "claim": "X_sigma is the unique G900 ring",
+      "admission_rule": "do not claim unless a uniqueness theorem is proved"
+    },
+    {
+      "id": "physical_interpretation",
+      "claim": "X_sigma has direct physical interpretation",
+      "admission_rule": "do not claim inside the finite theorem"
+    }
+  ],
+  "not_claimed": [
+    "census identification",
+    "uniqueness",
+    "physical interpretation",
+    "invalidity of sibling candidates",
+    "final public theorem status without admission certificates"
+  ],
+  "admission_principle": "A bounded QED theorem is possible only when every load-bearing claim is either directly proved from the kernel or supported by an explicit finite certificate."
+}
