@@ -1,0 +1,271 @@
+{
+  "assignment_contradictions_sample": [
+    {
+      "delta": 0,
+      "edge": [
+        10,
+        7
+      ],
+      "expected_value_w": 1,
+      "value_v": 1,
+      "value_w": 0
+    },
+    {
+      "delta": 1,
+      "edge": [
+        10,
+        14
+      ],
+      "expected_value_w": 0,
+      "value_v": 1,
+      "value_w": 1
+    },
+    {
+      "delta": 0,
+      "edge": [
+        14,
+        13
+      ],
+      "expected_value_w": 1,
+      "value_v": 1,
+      "value_w": 0
+    },
+    {
+      "delta": 1,
+      "edge": [
+        14,
+        10
+      ],
+      "expected_value_w": 0,
+      "value_v": 1,
+      "value_w": 1
+    },
+    {
+      "delta": 0,
+      "edge": [
+        2,
+        8
+      ],
+      "expected_value_w": 0,
+      "value_v": 0,
+      "value_w": 1
+    },
+    {
+      "delta": 0,
+      "edge": [
+        7,
+        10
+      ],
+      "expected_value_w": 0,
+      "value_v": 0,
+      "value_w": 1
+    },
+    {
+      "delta": 0,
+      "edge": [
+        7,
+        11
+      ],
+      "expected_value_w": 0,
+      "value_v": 0,
+      "value_w": 1
+    },
+    {
+      "delta": 0,
+      "edge": [
+        3,
+        8
+      ],
+      "expected_value_w": 0,
+      "value_v": 0,
+      "value_w": 1
+    },
+    {
+      "delta": 1,
+      "edge": [
+        9,
+        12
+      ],
+      "expected_value_w": 1,
+      "value_v": 0,
+      "value_w": 0
+    },
+    {
+      "delta": 1,
+      "edge": [
+        12,
+        9
+      ],
+      "expected_value_w": 1,
+      "value_v": 0,
+      "value_w": 0
+    }
+  ],
+  "boundary": [
+    "This certificate proves non-switching-equivalence of the sibling signing delta.",
+    "It does not prove the sibling candidate is invalid.",
+    "It does not prove full graph separation by exact graph invariant.",
+    "It does not prove uniqueness among all possible signed carriers.",
+    "It does not use renderer output, census identity, physical interpretation, or Project 17 at runtime."
+  ],
+  "certificate": "sibling_non_switching",
+  "checks": {
+    "assignment_has_contradiction": true,
+    "canonical_edges_match_g15": true,
+    "canonical_signing_has_30_edges": true,
+    "each_support_triangle_has_odd_delta_parity": true,
+    "g15_edge_count_is_30": true,
+    "gf2_system_unsolvable": true,
+    "rank_augmented_exceeds_rank_coeff": true,
+    "support_component_count_is_2": true,
+    "support_component_sizes_are_3_3": true,
+    "support_cycle_rank_is_2": true,
+    "support_edge_count_is_6": true,
+    "support_edges_exist_in_g15": true
+  },
+  "claim": "The sibling signing delta is not a switching coboundary over the G15 slot graph.",
+  "counts": {
+    "canonical_sign_0": 15,
+    "canonical_sign_1": 15,
+    "delta_0": 24,
+    "delta_1": 6,
+    "g15_edges": 30,
+    "sibling_sign_0": 15,
+    "sibling_sign_1": 15
+  },
+  "interpretation": "The sibling signing is not switching-equivalent to the canonical signing.",
+  "linear_obstruction": {
+    "rank_augmented": 15,
+    "rank_coeff": 14,
+    "solvable": false
+  },
+  "method": "Solve the F2 switching equation g_u + g_v = delta_uv over the G15 edge set and verify inconsistency.",
+  "source_files": {
+    "canonical_carrier_signing": "source/kernel_payload/carrier_signing_table.csv",
+    "g15_slot_edges": "source/kernel_payload/g15_slot_edges.csv",
+    "sibling_candidate_signing": "source/kernel_payload/sibling_candidate_signing_table.csv",
+    "sibling_delta": "source/kernel_payload/sibling_signing_delta.csv"
+  },
+  "support": {
+    "support_edges": [
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        14
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "support_graph": {
+      "component_count": 2,
+      "component_sizes": [
+        3,
+        3
+      ],
+      "components": [
+        [
+          5,
+          10,
+          14
+        ],
+        [
+          9,
+          11,
+          12
+        ]
+      ],
+      "cycle_rank": 2,
+      "degree_counts": {
+        "2": 6
+      },
+      "vertices": [
+        5,
+        9,
+        10,
+        11,
+        12,
+        14
+      ]
+    },
+    "support_triangles": [
+      [
+        5,
+        10,
+        14
+      ],
+      [
+        9,
+        11,
+        12
+      ]
+    ],
+    "triangle_checks": [
+      {
+        "all_edges_exist": true,
+        "delta_parity": 1,
+        "edges": [
+          [
+            5,
+            10
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            10,
+            14
+          ]
+        ],
+        "odd_delta_parity": true,
+        "triangle": [
+          5,
+          10,
+          14
+        ]
+      },
+      {
+        "all_edges_exist": true,
+        "delta_parity": 1,
+        "edges": [
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            11,
+            12
+          ]
+        ],
+        "odd_delta_parity": true,
+        "triangle": [
+          9,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "verification_ok": true
+}
