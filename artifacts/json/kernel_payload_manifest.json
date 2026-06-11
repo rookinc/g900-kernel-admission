@@ -1,0 +1,54 @@
+{
+  "boundary": [
+    "This payload makes the construction kernel data available inside Project 18.",
+    "Project 17 remains provenance, not a runtime dependency, after this import.",
+    "This does not yet create the full proof-kernel certificate bundle."
+  ],
+  "kernel_payload_independent_of_project17": true,
+  "missing": [],
+  "project": "18-g900-kernel-admission",
+  "purpose": "Self-contained minimal finite kernel payload for Project 18.",
+  "records": [
+    {
+      "bytes": 185,
+      "expected_rows": 30,
+      "payload_path": "source/kernel_payload/g15_slot_edges.csv",
+      "role": "G15 slot edge list",
+      "row_count": 30,
+      "row_count_ok": true,
+      "sha256": "7b94834d507cf2995ec6faf73e2e227a685d831894aa98f2647556d8b922b8f6",
+      "source_path": "support/admission/admitted_g15_slot_edges.csv"
+    },
+    {
+      "bytes": 817,
+      "expected_rows": 120,
+      "payload_path": "source/kernel_payload/g60_local_edges.csv",
+      "role": "G60 local edge list",
+      "row_count": 120,
+      "row_count_ok": true,
+      "sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f",
+      "source_path": "support/admission/admitted_g60_local_edges.csv"
+    },
+    {
+      "bytes": 942,
+      "expected_rows": 30,
+      "payload_path": "source/kernel_payload/carrier_signing_table.csv",
+      "role": "carrier signing table",
+      "row_count": 30,
+      "row_count_ok": true,
+      "sha256": "9b3cf812cc0f6d7b065666c81fa6d16fd3e3b8a98955c264709337c7f3e7efb7",
+      "source_path": "support/admission/carrier_signing_table.csv"
+    },
+    {
+      "bytes": 151574,
+      "expected_rows": 3600,
+      "payload_path": "source/kernel_payload/x_sigma_edges.csv",
+      "role": "regenerated X_sigma edge list",
+      "row_count": 3600,
+      "row_count_ok": true,
+      "sha256": "ea2679662f4322a9ea021fba1143c804ef73b1fae95f50c77ba76b7fe1092230",
+      "source_path": "support/admission/regenerated_x_sigma_edges.csv"
+    }
+  ],
+  "source_project": "17-g900-theorem-proof"
+}
