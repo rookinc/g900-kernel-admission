@@ -1,0 +1,68 @@
+{
+  "boundary": [
+    "This certificate proves separation from the untwisted product baseline by exact metric invariants.",
+    "It does not prove uniqueness among all possible signed carriers.",
+    "It does not prove sibling non-switching or sibling full-graph separation.",
+    "It does not use renderer output, census identity, physical interpretation, or Project 17 at runtime."
+  ],
+  "certificate": "baseline_separation",
+  "checks": {
+    "baseline_connected": true,
+    "baseline_diameter_is_9": true,
+    "baseline_edge_count_is_3600": true,
+    "baseline_radius_is_9": true,
+    "diameter_separates": true,
+    "distance_distribution_pair_count_ok": true,
+    "g15_edge_count_is_30": true,
+    "g60_edge_count_is_120": true,
+    "radius_separates": true,
+    "x_sigma_diameter_is_8": true,
+    "x_sigma_radius_is_6": true
+  },
+  "claim": "The canonical X_sigma graph is separated from the untwisted product baseline by exact metric invariants.",
+  "counts": {
+    "baseline_edges": 3600,
+    "g15_slot_edges": 30,
+    "g60_local_edges": 120,
+    "vertex_count": 900
+  },
+  "hashes": {
+    "baseline_edge_id_set_sha256": "c347b81a3e663db7104b277a148802b67049e041dd80b153d45c8052f24dba66"
+  },
+  "method": "Build untwisted baseline from G15 and G60 with identity carriers, then compare exact diameter and radius against X_sigma metric certificate.",
+  "source_files": {
+    "g15_slot_edges": "source/kernel_payload/g15_slot_edges.csv",
+    "g60_local_edges": "source/kernel_payload/g60_local_edges.csv",
+    "x_sigma_metric_certificate": "artifacts/json/metric_certificate.json"
+  },
+  "untwisted_baseline": {
+    "center_count": 900,
+    "diameter": 9,
+    "diameter_vertex_count": 900,
+    "distance_distribution": {
+      "1": 3600,
+      "2": 14400,
+      "3": 36900,
+      "4": 72000,
+      "5": 110700,
+      "6": 112050,
+      "7": 45000,
+      "8": 9000,
+      "9": 900
+    },
+    "eccentricity_counts": {
+      "9": 900
+    },
+    "first_center_vertex": 0,
+    "first_diameter_witness_pair": [
+      0,
+      520
+    ],
+    "radius": 9
+  },
+  "verification_ok": true,
+  "x_sigma": {
+    "diameter": 8,
+    "radius": 6
+  }
+}
