@@ -1,0 +1,58 @@
+{
+  "certificate_plan": "g900_kernel_admission_certificate_plan",
+  "project": "18-g900-kernel-admission",
+  "certificates": [
+    {
+      "id": "connectedness",
+      "claim": "X_sigma is connected",
+      "target": "spanning tree or BFS parent map on all 900 vertices",
+      "status": "planned"
+    },
+    {
+      "id": "diameter",
+      "claim": "diameter(X_sigma) = 8",
+      "target": "upper-bound all-pairs distance certificate plus lower-bound witness pair",
+      "status": "planned"
+    },
+    {
+      "id": "radius",
+      "claim": "radius(X_sigma) = 6",
+      "target": "eccentricity certificate with center set and no smaller radius",
+      "status": "planned"
+    },
+    {
+      "id": "exact_edge_set_identity",
+      "claim": "Gen(K_900) equals recorded canonical candidate edge set",
+      "target": "sorted endpoint edge-set equality with zero missing and zero extra edges",
+      "status": "planned"
+    },
+    {
+      "id": "sibling_non_switching",
+      "claim": "sibling signing is not switching-equivalent to canonical signing",
+      "target": "F2 coboundary obstruction certificate",
+      "status": "planned"
+    },
+    {
+      "id": "sibling_full_graph_separation",
+      "claim": "sibling graph is separated from canonical graph as a full graph",
+      "target": "exact invariant difference, preferably distance distribution",
+      "status": "planned"
+    },
+    {
+      "id": "baseline_separation",
+      "claim": "X_sigma is not isomorphic to the untwisted product baseline",
+      "target": "metric invariant separation by diameter or radius",
+      "status": "planned"
+    }
+  ],
+  "admission_rule": "A certificate is admissible only if it can be checked from finite data without relying on renderer output, visual geometry, screen coordinates, census identity, physical interpretation, or project memory.",
+  "minimal_bounded_qed_package": [
+    "construction kernel",
+    "generation operator",
+    "claim ledger",
+    "certificate plan",
+    "finite certificates",
+    "independent verifier",
+    "final theorem prose"
+  ]
+}
