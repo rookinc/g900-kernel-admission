@@ -1,0 +1,98 @@
+{
+  "boundary": [
+    "This certificate proves canonical X_sigma and the sibling graph are separated by an exact graph invariant.",
+    "Unequal distance distributions are graph invariants, so this also certifies non-isomorphism for this sibling graph.",
+    "It does not prove the sibling candidate is invalid.",
+    "It does not prove uniqueness among all possible signed carriers.",
+    "It does not use renderer output, census identity, physical interpretation, or Project 17 at runtime."
+  ],
+  "canonical_metric": {
+    "diameter": 8,
+    "distance_distribution": {
+      "1": 3600,
+      "2": 17710,
+      "3": 60345,
+      "4": 131446,
+      "5": 143177,
+      "6": 45600,
+      "7": 2667,
+      "8": 5
+    },
+    "eccentricity_counts": {
+      "6": 349,
+      "7": 541,
+      "8": 10
+    },
+    "radius": 6
+  },
+  "certificate": "sibling_full_graph_separation",
+  "checks": {
+    "canonical_and_sibling_label_distinct": true,
+    "canonical_edge_count_is_3600": true,
+    "distance_distribution_separates": true,
+    "exact_graph_invariant_separates": true,
+    "g15_edge_count_is_30": true,
+    "g60_edge_count_is_120": true,
+    "sibling_connected": true,
+    "sibling_distance_pair_count_ok": true,
+    "sibling_edge_count_is_3600": true,
+    "sibling_signing_edges_match_g15": true,
+    "sibling_signing_has_30_edges": true
+  },
+  "claim": "The sibling graph is separated from canonical X_sigma by an exact graph invariant.",
+  "edge_set_comparison": {
+    "canonical_edges": 3600,
+    "canonical_only_edges": 360,
+    "intersection_edges": 3240,
+    "sibling_edges": 3600,
+    "sibling_only_edges": 360,
+    "symmetric_difference_edges": 720
+  },
+  "hashes": {
+    "canonical_edge_id_set_sha256": "e261704922e6aa218126561bbf0d0b488d9eecd79b34fbeb08e66311e42bbd60",
+    "sibling_edge_id_set_sha256": "b7951eac5c82e49faeed6f3be342e2f0d546ae1bca90a22b4fc73edb79ed983c"
+  },
+  "method": "Build sibling graph from the sibling signing table, compute all-source BFS invariants, and compare against canonical X_sigma invariants.",
+  "separation_flags": {
+    "diameter_separates": false,
+    "distance_distribution_separates": true,
+    "eccentricity_counts_separates": true,
+    "exact_graph_invariant_separates": true,
+    "radius_separates": false
+  },
+  "sibling_metric": {
+    "center_count": 327,
+    "diameter": 8,
+    "diameter_vertex_count": 48,
+    "distance_distribution": {
+      "1": 3600,
+      "2": 17700,
+      "3": 60642,
+      "4": 130810,
+      "5": 142395,
+      "6": 46225,
+      "7": 3144,
+      "8": 34
+    },
+    "eccentricity_counts": {
+      "6": 327,
+      "7": 525,
+      "8": 48
+    },
+    "first_center_vertex": 1,
+    "first_diameter_witness_pair": [
+      18,
+      683
+    ],
+    "radius": 6
+  },
+  "source_files": {
+    "canonical_metric_certificate": "artifacts/json/metric_certificate.json",
+    "canonical_x_sigma_edges": "source/kernel_payload/x_sigma_edges.csv",
+    "g15_slot_edges": "source/kernel_payload/g15_slot_edges.csv",
+    "g60_local_edges": "source/kernel_payload/g60_local_edges.csv",
+    "sibling_signing_table": "source/kernel_payload/sibling_candidate_signing_table.csv",
+    "sibling_x_sigma_edges": "source/kernel_payload/sibling_x_sigma_edges.csv"
+  },
+  "verification_ok": true
+}
