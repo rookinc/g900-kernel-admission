@@ -10,27 +10,27 @@
 - edge_count: 3600
 - diameter: 8
 - radius: 6
-- center_count: 349
+- center_count: 342
 - first_center_vertex: 1
-- diameter_vertex_count: 10
-- first_diameter_witness_pair: [198, 623]
+- diameter_vertex_count: 32
+- first_diameter_witness_pair: [18, 683]
 
 ## Eccentricity counts
 
-- eccentricity_6: 349
-- eccentricity_7: 541
-- eccentricity_8: 10
+- eccentricity_6: 342
+- eccentricity_7: 526
+- eccentricity_8: 32
 
 ## Distance distribution
 
 - distance_1: 3600
-- distance_2: 17710
-- distance_3: 60345
-- distance_4: 131446
-- distance_5: 143177
-- distance_6: 45600
-- distance_7: 2667
-- distance_8: 5
+- distance_2: 17700
+- distance_3: 59941
+- distance_4: 129877
+- distance_5: 142712
+- distance_6: 47600
+- distance_7: 3100
+- distance_8: 20
 
 ## Checks
 
@@ -45,7 +45,7 @@
 
 ## Hashes
 
-- source_edge_id_set_sha256: 982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d
+- source_edge_id_set_sha256: e261704922e6aa218126561bbf0d0b488d9eecd79b34fbeb08e66311e42bbd60
 
 ## Boundary
 
