@@ -29,22 +29,35 @@ def ints_from_row(row):
     return vals
 
 def parse_edge_to_ids(row):
-    xs = ints_from_row(row)
-
-    if len(xs) >= 4:
-        a_slot, a_local, b_slot, b_local = xs[:4]
-        if 0 <= a_slot < 15 and 0 <= b_slot < 15 and 0 <= a_local < 60 and 0 <= b_local < 60:
-            a = a_slot * 60 + a_local
-            b = b_slot * 60 + b_local
+    # Prefer explicit global edge columns from the canonical payload:
+    # u_vertex,v_vertex,u_slot,u_local,v_slot,v_local,kind
+    if "u_vertex" in row and "v_vertex" in row:
+        a = int(row["u_vertex"])
+        b = int(row["v_vertex"])
+        if 0 <= a < N and 0 <= b < N:
             return tuple(sorted((a, b)))
 
+    # Then accept explicit slot/local columns.
+    if all(k in row for k in ("u_slot", "u_local", "v_slot", "v_local")):
+        a = int(row["u_slot"]) * 60 + int(row["u_local"])
+        b = int(row["v_slot"]) * 60 + int(row["v_local"])
+        if 0 <= a < N and 0 <= b < N:
+            return tuple(sorted((a, b)))
+
+    if all(k in row for k in ("slot_a", "local_a", "slot_b", "local_b")):
+        a = int(row["slot_a"]) * 60 + int(row["local_a"])
+        b = int(row["slot_b"]) * 60 + int(row["local_b"])
+        if 0 <= a < N and 0 <= b < N:
+            return tuple(sorted((a, b)))
+
+    # Last-resort fallback for simple numeric edge rows.
+    xs = ints_from_row(row)
     if len(xs) >= 2:
         a, b = xs[:2]
         if 0 <= a < N and 0 <= b < N:
             return tuple(sorted((a, b)))
 
     raise ValueError("could not parse edge row: " + str(row))
-
 def sha_edge_ids(edges):
     text = "\n".join(f"{a},{b}" for a, b in sorted(edges)) + "\n"
     return hashlib.sha256(text.encode("utf-8")).hexdigest()

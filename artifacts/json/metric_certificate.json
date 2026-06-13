@@ -5,33 +5,42 @@
     "It does not prove uniqueness, census identity, sibling non-switching, or physical interpretation.",
     "It does not use renderer output or Project 17 at runtime."
   ],
-  "center_count": 349,
+  "center_count": 342,
   "center_vertices": [
     1,
     2,
     3,
-    4,
     5,
     6,
     7,
     8,
     9,
     10,
-    11,
-    12,
     14,
     15,
     16,
+    20,
+    25,
     29,
+    30,
     31,
     32,
     33,
+    35,
     36,
     37,
     38,
+    39,
     40,
+    41,
+    42,
+    43,
     44,
+    45,
     46,
+    50,
+    51,
+    55,
     61,
     62,
     63,
@@ -41,19 +50,16 @@
     68,
     69,
     70,
-    73,
     74,
     75,
     76,
     80,
-    81,
     85,
     89,
     90,
     91,
     92,
     93,
-    94,
     95,
     96,
     97,
@@ -66,13 +72,9 @@
     104,
     105,
     106,
-    107,
     110,
     111,
-    114,
     115,
-    119,
-    120,
     121,
     122,
     123,
@@ -82,7 +84,6 @@
     128,
     129,
     130,
-    131,
     134,
     135,
     136,
@@ -108,23 +109,17 @@
     170,
     171,
     175,
-    179,
-    181,
     182,
     185,
-    188,
     189,
     190,
     194,
-    196,
-    200,
-    209,
     215,
     216,
     219,
     224,
     226,
-    235,
+    241,
     242,
     243,
     245,
@@ -134,18 +129,20 @@
     249,
     250,
     254,
+    255,
+    256,
+    260,
     265,
     269,
-    273,
+    271,
     275,
     276,
     279,
-    281,
-    283,
+    280,
     284,
     285,
     286,
-    287,
+    290,
     291,
     295,
     301,
@@ -159,47 +156,52 @@
     310,
     314,
     315,
+    316,
     320,
+    325,
     329,
+    330,
     331,
     332,
     333,
     335,
     336,
+    337,
     338,
     339,
     340,
     341,
     342,
     343,
+    344,
     345,
     346,
-    347,
     350,
     351,
     355,
-    359,
+    360,
     361,
     362,
     363,
     364,
     365,
     366,
+    367,
+    368,
+    369,
     370,
-    371,
     374,
+    375,
     376,
-    381,
+    380,
     385,
     389,
     391,
-    393,
     394,
     395,
     396,
-    397,
     399,
-    403,
+    400,
     404,
     405,
     406,
@@ -222,8 +224,6 @@
     445,
     449,
     451,
-    452,
-    454,
     455,
     456,
     459,
@@ -239,53 +239,45 @@
     483,
     485,
     486,
-    488,
     489,
     490,
     494,
-    495,
-    496,
     500,
     505,
     509,
     515,
     516,
     519,
-    521,
     524,
     525,
     526,
     530,
     531,
     535,
+    541,
     542,
     543,
     545,
+    546,
     550,
     560,
     575,
     576,
     579,
-    580,
     585,
     586,
+    590,
     591,
-    601,
     602,
-    603,
     605,
-    606,
-    608,
     609,
     610,
     614,
-    632,
     635,
     636,
     639,
     644,
     646,
-    651,
     661,
     662,
     663,
@@ -294,18 +286,25 @@
     670,
     680,
     695,
+    696,
     699,
+    705,
     706,
     710,
+    711,
     721,
     722,
     723,
     725,
+    726,
+    729,
     730,
     734,
+    740,
     745,
     749,
     755,
+    756,
     759,
     765,
     766,
@@ -335,27 +334,21 @@
     843,
     845,
     846,
-    848,
     849,
     850,
     854,
-    855,
     860,
     865,
     869,
-    872,
-    873,
     875,
     876,
     879,
-    881,
     884,
     885,
     886,
     890,
     891,
-    895,
-    899
+    895
   ],
   "certificate": "diameter_radius_metric_certificate",
   "checks": {
@@ -370,33 +363,55 @@
   },
   "claim": "X_sigma has diameter 8 and radius 6.",
   "diameter": 8,
-  "diameter_vertex_count": 10,
+  "diameter_vertex_count": 32,
   "diameter_vertices": [
+    18,
+    23,
+    78,
+    83,
+    138,
+    143,
     198,
-    262,
+    203,
+    228,
+    233,
+    258,
+    263,
+    318,
+    323,
+    438,
     443,
+    498,
     503,
+    558,
     563,
+    618,
     623,
+    648,
+    653,
     678,
-    773,
+    683,
+    738,
+    743,
     798,
-    858
+    803,
+    858,
+    863
   ],
   "distance_distribution": {
     "1": 3600,
-    "2": 17710,
-    "3": 60345,
-    "4": 131446,
-    "5": 143177,
-    "6": 45600,
-    "7": 2667,
-    "8": 5
+    "2": 17700,
+    "3": 59941,
+    "4": 129877,
+    "5": 142712,
+    "6": 47600,
+    "7": 3100,
+    "8": 20
   },
   "eccentricity_counts": {
-    "6": 349,
-    "7": 541,
-    "8": 10
+    "6": 342,
+    "7": 526,
+    "8": 32
   },
   "eccentricity_table": [
     {
@@ -424,7 +439,7 @@
       "vertex": 3
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 4,
       "slot": 0,
       "vertex": 4
@@ -466,13 +481,13 @@
       "vertex": 10
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 11,
       "slot": 0,
       "vertex": 11
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 12,
       "slot": 0,
       "vertex": 12
@@ -508,7 +523,7 @@
       "vertex": 17
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 0,
       "vertex": 18
@@ -520,7 +535,7 @@
       "vertex": 19
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 20,
       "slot": 0,
       "vertex": 20
@@ -538,7 +553,7 @@
       "vertex": 22
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 0,
       "vertex": 23
@@ -550,7 +565,7 @@
       "vertex": 24
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 25,
       "slot": 0,
       "vertex": 25
@@ -580,7 +595,7 @@
       "vertex": 29
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 30,
       "slot": 0,
       "vertex": 30
@@ -610,7 +625,7 @@
       "vertex": 34
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 35,
       "slot": 0,
       "vertex": 35
@@ -634,7 +649,7 @@
       "vertex": 38
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 39,
       "slot": 0,
       "vertex": 39
@@ -646,19 +661,19 @@
       "vertex": 40
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 41,
       "slot": 0,
       "vertex": 41
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 42,
       "slot": 0,
       "vertex": 42
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 43,
       "slot": 0,
       "vertex": 43
@@ -670,7 +685,7 @@
       "vertex": 44
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 45,
       "slot": 0,
       "vertex": 45
@@ -700,13 +715,13 @@
       "vertex": 49
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 50,
       "slot": 0,
       "vertex": 50
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 51,
       "slot": 0,
       "vertex": 51
@@ -730,7 +745,7 @@
       "vertex": 54
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 55,
       "slot": 0,
       "vertex": 55
@@ -838,7 +853,7 @@
       "vertex": 72
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 13,
       "slot": 1,
       "vertex": 73
@@ -868,7 +883,7 @@
       "vertex": 77
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 1,
       "vertex": 78
@@ -886,7 +901,7 @@
       "vertex": 80
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 21,
       "slot": 1,
       "vertex": 81
@@ -898,7 +913,7 @@
       "vertex": 82
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 1,
       "vertex": 83
@@ -964,7 +979,7 @@
       "vertex": 93
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 34,
       "slot": 1,
       "vertex": 94
@@ -1042,7 +1057,7 @@
       "vertex": 106
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 47,
       "slot": 1,
       "vertex": 107
@@ -1084,7 +1099,7 @@
       "vertex": 113
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 54,
       "slot": 1,
       "vertex": 114
@@ -1114,13 +1129,13 @@
       "vertex": 118
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 59,
       "slot": 1,
       "vertex": 119
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 0,
       "slot": 2,
       "vertex": 120
@@ -1186,7 +1201,7 @@
       "vertex": 130
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 11,
       "slot": 2,
       "vertex": 131
@@ -1228,7 +1243,7 @@
       "vertex": 137
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 2,
       "vertex": 138
@@ -1258,7 +1273,7 @@
       "vertex": 142
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 2,
       "vertex": 143
@@ -1474,7 +1489,7 @@
       "vertex": 178
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 59,
       "slot": 2,
       "vertex": 179
@@ -1486,7 +1501,7 @@
       "vertex": 180
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 1,
       "slot": 3,
       "vertex": 181
@@ -1528,7 +1543,7 @@
       "vertex": 187
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 8,
       "slot": 3,
       "vertex": 188
@@ -1576,7 +1591,7 @@
       "vertex": 195
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 16,
       "slot": 3,
       "vertex": 196
@@ -1600,7 +1615,7 @@
       "vertex": 199
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 20,
       "slot": 3,
       "vertex": 200
@@ -1618,7 +1633,7 @@
       "vertex": 202
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 3,
       "vertex": 203
@@ -1654,7 +1669,7 @@
       "vertex": 208
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 29,
       "slot": 3,
       "vertex": 209
@@ -1768,7 +1783,7 @@
       "vertex": 227
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 48,
       "slot": 3,
       "vertex": 228
@@ -1798,7 +1813,7 @@
       "vertex": 232
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 53,
       "slot": 3,
       "vertex": 233
@@ -1810,7 +1825,7 @@
       "vertex": 234
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 55,
       "slot": 3,
       "vertex": 235
@@ -1846,7 +1861,7 @@
       "vertex": 240
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 1,
       "slot": 4,
       "vertex": 241
@@ -1930,13 +1945,13 @@
       "vertex": 254
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 15,
       "slot": 4,
       "vertex": 255
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 16,
       "slot": 4,
       "vertex": 256
@@ -1948,7 +1963,7 @@
       "vertex": 257
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 4,
       "vertex": 258
@@ -1960,7 +1975,7 @@
       "vertex": 259
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 20,
       "slot": 4,
       "vertex": 260
@@ -1972,13 +1987,13 @@
       "vertex": 261
     },
     {
-      "eccentricity": 8,
+      "eccentricity": 7,
       "local": 22,
       "slot": 4,
       "vertex": 262
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 4,
       "vertex": 263
@@ -2026,7 +2041,7 @@
       "vertex": 270
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 31,
       "slot": 4,
       "vertex": 271
@@ -2038,7 +2053,7 @@
       "vertex": 272
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 33,
       "slot": 4,
       "vertex": 273
@@ -2080,13 +2095,13 @@
       "vertex": 279
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 40,
       "slot": 4,
       "vertex": 280
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 41,
       "slot": 4,
       "vertex": 281
@@ -2098,7 +2113,7 @@
       "vertex": 282
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 43,
       "slot": 4,
       "vertex": 283
@@ -2122,7 +2137,7 @@
       "vertex": 286
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 47,
       "slot": 4,
       "vertex": 287
@@ -2140,7 +2155,7 @@
       "vertex": 289
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 50,
       "slot": 4,
       "vertex": 290
@@ -2296,7 +2311,7 @@
       "vertex": 315
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 16,
       "slot": 5,
       "vertex": 316
@@ -2308,7 +2323,7 @@
       "vertex": 317
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 5,
       "vertex": 318
@@ -2338,7 +2353,7 @@
       "vertex": 322
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 5,
       "vertex": 323
@@ -2350,7 +2365,7 @@
       "vertex": 324
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 25,
       "slot": 5,
       "vertex": 325
@@ -2380,7 +2395,7 @@
       "vertex": 329
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 30,
       "slot": 5,
       "vertex": 330
@@ -2422,7 +2437,7 @@
       "vertex": 336
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 37,
       "slot": 5,
       "vertex": 337
@@ -2464,7 +2479,7 @@
       "vertex": 343
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 44,
       "slot": 5,
       "vertex": 344
@@ -2482,7 +2497,7 @@
       "vertex": 346
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 47,
       "slot": 5,
       "vertex": 347
@@ -2554,13 +2569,13 @@
       "vertex": 358
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 59,
       "slot": 5,
       "vertex": 359
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 0,
       "slot": 6,
       "vertex": 360
@@ -2602,19 +2617,19 @@
       "vertex": 366
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 7,
       "slot": 6,
       "vertex": 367
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 8,
       "slot": 6,
       "vertex": 368
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 9,
       "slot": 6,
       "vertex": 369
@@ -2626,7 +2641,7 @@
       "vertex": 370
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 11,
       "slot": 6,
       "vertex": 371
@@ -2650,7 +2665,7 @@
       "vertex": 374
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 15,
       "slot": 6,
       "vertex": 375
@@ -2680,13 +2695,13 @@
       "vertex": 379
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 20,
       "slot": 6,
       "vertex": 380
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 21,
       "slot": 6,
       "vertex": 381
@@ -2758,7 +2773,7 @@
       "vertex": 392
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 33,
       "slot": 6,
       "vertex": 393
@@ -2782,7 +2797,7 @@
       "vertex": 396
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 37,
       "slot": 6,
       "vertex": 397
@@ -2800,7 +2815,7 @@
       "vertex": 399
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 40,
       "slot": 6,
       "vertex": 400
@@ -2818,7 +2833,7 @@
       "vertex": 402
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 43,
       "slot": 6,
       "vertex": 403
@@ -3028,7 +3043,7 @@
       "vertex": 437
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 7,
       "vertex": 438
@@ -3112,7 +3127,7 @@
       "vertex": 451
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 32,
       "slot": 7,
       "vertex": 452
@@ -3124,7 +3139,7 @@
       "vertex": 453
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 34,
       "slot": 7,
       "vertex": 454
@@ -3328,7 +3343,7 @@
       "vertex": 487
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 8,
       "slot": 8,
       "vertex": 488
@@ -3370,13 +3385,13 @@
       "vertex": 494
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 15,
       "slot": 8,
       "vertex": 495
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 16,
       "slot": 8,
       "vertex": 496
@@ -3388,7 +3403,7 @@
       "vertex": 497
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 8,
       "vertex": 498
@@ -3526,7 +3541,7 @@
       "vertex": 520
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 41,
       "slot": 8,
       "vertex": 521
@@ -3646,7 +3661,7 @@
       "vertex": 540
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 1,
       "slot": 9,
       "vertex": 541
@@ -3676,7 +3691,7 @@
       "vertex": 545
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 6,
       "slot": 9,
       "vertex": 546
@@ -3748,7 +3763,7 @@
       "vertex": 557
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 9,
       "vertex": 558
@@ -3880,7 +3895,7 @@
       "vertex": 579
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 40,
       "slot": 9,
       "vertex": 580
@@ -3940,7 +3955,7 @@
       "vertex": 589
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 50,
       "slot": 9,
       "vertex": 590
@@ -4006,7 +4021,7 @@
       "vertex": 600
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 1,
       "slot": 10,
       "vertex": 601
@@ -4018,7 +4033,7 @@
       "vertex": 602
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 3,
       "slot": 10,
       "vertex": 603
@@ -4036,7 +4051,7 @@
       "vertex": 605
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 6,
       "slot": 10,
       "vertex": 606
@@ -4048,7 +4063,7 @@
       "vertex": 607
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 8,
       "slot": 10,
       "vertex": 608
@@ -4108,7 +4123,7 @@
       "vertex": 617
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 10,
       "vertex": 618
@@ -4192,7 +4207,7 @@
       "vertex": 631
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 32,
       "slot": 10,
       "vertex": 632
@@ -4288,7 +4303,7 @@
       "vertex": 647
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 48,
       "slot": 10,
       "vertex": 648
@@ -4306,7 +4321,7 @@
       "vertex": 650
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 51,
       "slot": 10,
       "vertex": 651
@@ -4318,7 +4333,7 @@
       "vertex": 652
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 53,
       "slot": 10,
       "vertex": 653
@@ -4498,7 +4513,7 @@
       "vertex": 682
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 11,
       "vertex": 683
@@ -4576,7 +4591,7 @@
       "vertex": 695
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 36,
       "slot": 11,
       "vertex": 696
@@ -4630,7 +4645,7 @@
       "vertex": 704
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 45,
       "slot": 11,
       "vertex": 705
@@ -4666,7 +4681,7 @@
       "vertex": 710
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 51,
       "slot": 11,
       "vertex": 711
@@ -4756,7 +4771,7 @@
       "vertex": 725
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 6,
       "slot": 12,
       "vertex": 726
@@ -4774,7 +4789,7 @@
       "vertex": 728
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 9,
       "slot": 12,
       "vertex": 729
@@ -4828,7 +4843,7 @@
       "vertex": 737
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 18,
       "slot": 12,
       "vertex": 738
@@ -4840,7 +4855,7 @@
       "vertex": 739
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 20,
       "slot": 12,
       "vertex": 740
@@ -4858,7 +4873,7 @@
       "vertex": 742
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 12,
       "vertex": 743
@@ -4936,7 +4951,7 @@
       "vertex": 755
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 6,
       "local": 36,
       "slot": 12,
       "vertex": 756
@@ -5038,7 +5053,7 @@
       "vertex": 772
     },
     {
-      "eccentricity": 8,
+      "eccentricity": 7,
       "local": 53,
       "slot": 12,
       "vertex": 773
@@ -5218,7 +5233,7 @@
       "vertex": 802
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 13,
       "vertex": 803
@@ -5488,7 +5503,7 @@
       "vertex": 847
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 8,
       "slot": 14,
       "vertex": 848
@@ -5530,7 +5545,7 @@
       "vertex": 854
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 15,
       "slot": 14,
       "vertex": 855
@@ -5578,7 +5593,7 @@
       "vertex": 862
     },
     {
-      "eccentricity": 7,
+      "eccentricity": 8,
       "local": 23,
       "slot": 14,
       "vertex": 863
@@ -5632,13 +5647,13 @@
       "vertex": 871
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 32,
       "slot": 14,
       "vertex": 872
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 33,
       "slot": 14,
       "vertex": 873
@@ -5686,7 +5701,7 @@
       "vertex": 880
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 41,
       "slot": 14,
       "vertex": 881
@@ -5794,7 +5809,7 @@
       "vertex": 898
     },
     {
-      "eccentricity": 6,
+      "eccentricity": 7,
       "local": 59,
       "slot": 14,
       "vertex": 899
@@ -5802,54 +5817,94 @@
   ],
   "edge_count": 3600,
   "first_diameter_witness_pair": [
-    198,
-    623
+    18,
+    683
   ],
   "hashes": {
-    "source_edge_id_set_sha256": "982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d"
+    "source_edge_id_set_sha256": "e261704922e6aa218126561bbf0d0b488d9eecd79b34fbeb08e66311e42bbd60"
   },
   "method": "All-source BFS over source/kernel_payload/x_sigma_edges.csv",
   "radius": 6,
   "sample_diameter_witness_pairs": [
     [
+      18,
+      683
+    ],
+    [
+      23,
+      678
+    ],
+    [
+      78,
+      563
+    ],
+    [
+      83,
+      558
+    ],
+    [
+      138,
+      743
+    ],
+    [
+      143,
+      738
+    ],
+    [
       198,
       623
     ],
     [
-      262,
-      773
+      203,
+      618
+    ],
+    [
+      228,
+      653
+    ],
+    [
+      233,
+      648
+    ],
+    [
+      258,
+      803
+    ],
+    [
+      263,
+      798
+    ],
+    [
+      318,
+      743
+    ],
+    [
+      323,
+      738
+    ],
+    [
+      438,
+      803
     ],
     [
       443,
       798
     ],
     [
+      498,
+      683
+    ],
+    [
       503,
       678
     ],
     [
+      558,
+      83
+    ],
+    [
       563,
-      858
-    ],
-    [
-      623,
-      198
-    ],
-    [
-      678,
-      503
-    ],
-    [
-      773,
-      262
-    ],
-    [
-      798,
-      443
-    ],
-    [
-      858,
-      563
+      78
     ]
   ],
   "source_edge_file": "source/kernel_payload/x_sigma_edges.csv",
