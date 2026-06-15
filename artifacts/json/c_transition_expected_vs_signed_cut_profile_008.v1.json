@@ -1,0 +1,1543 @@
+{
+  "boundary": "This does not derive the C-transition table. It only profiles the relation between the overlay transition table and signed-G15 cut adjacency.",
+  "candidate_count": 2,
+  "candidate_scores": [
+    {
+      "A": [
+        0,
+        2,
+        5,
+        10
+      ],
+      "B": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "C": [
+        1,
+        2,
+        14
+      ],
+      "channel_rows": [
+        {
+          "channel": "WX/ZT",
+          "expected_no_edge_pair_count": 3,
+          "expected_no_edge_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ]
+          ],
+          "expected_pair_count": 4,
+          "expected_relation_counts": {
+            "no_edge": 3
+          },
+          "expected_signed_pair_count": 0,
+          "expected_signed_pairs": [],
+          "nonexpected_relation_counts": {
+            "no_edge": 7,
+            "signed_neg": 4,
+            "signed_pos": 1
+          },
+          "nonexpected_signed_pair_count": 5,
+          "nonexpected_signed_pairs_first_30": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              10,
+              11
+            ]
+          ],
+          "possible_pair_count": 15,
+          "possible_relation_counts": {
+            "no_edge": 10,
+            "signed_neg": 4,
+            "signed_pos": 1
+          },
+          "rows": [
+            {
+              "from_C": 0,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 0,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 4
+            },
+            {
+              "from_C": 0,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 11
+            },
+            {
+              "from_C": 0,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 13
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 4
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 11
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 13
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 4
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 11
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 13
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 4
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 11
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 13
+            }
+          ],
+          "source_block": "A",
+          "source_values": [
+            0,
+            2,
+            5,
+            10
+          ],
+          "target_block": "B",
+          "target_values": [
+            2,
+            4,
+            11,
+            13
+          ]
+        },
+        {
+          "channel": "TI/XY",
+          "expected_no_edge_pair_count": 1,
+          "expected_no_edge_pairs": [
+            [
+              13,
+              1
+            ]
+          ],
+          "expected_pair_count": 4,
+          "expected_relation_counts": {
+            "no_edge": 1,
+            "signed_neg": 1
+          },
+          "expected_signed_pair_count": 1,
+          "expected_signed_pairs": [
+            [
+              11,
+              2
+            ]
+          ],
+          "nonexpected_relation_counts": {
+            "no_edge": 5,
+            "signed_neg": 2,
+            "signed_pos": 2
+          },
+          "nonexpected_signed_pair_count": 4,
+          "nonexpected_signed_pairs_first_30": [
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              2
+            ]
+          ],
+          "possible_pair_count": 11,
+          "possible_relation_counts": {
+            "no_edge": 6,
+            "signed_neg": 3,
+            "signed_pos": 2
+          },
+          "rows": [
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 1
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 14
+            },
+            {
+              "from_C": 4,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 1
+            },
+            {
+              "from_C": 4,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 4,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 14
+            },
+            {
+              "from_C": 11,
+              "is_expected_transition": false,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 1
+            },
+            {
+              "from_C": 11,
+              "is_expected_transition": true,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 2
+            },
+            {
+              "from_C": 11,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 14
+            },
+            {
+              "from_C": 13,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 1
+            },
+            {
+              "from_C": 13,
+              "is_expected_transition": false,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 2
+            },
+            {
+              "from_C": 13,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 14
+            }
+          ],
+          "source_block": "B",
+          "source_values": [
+            2,
+            4,
+            11,
+            13
+          ],
+          "target_block": "C",
+          "target_values": [
+            1,
+            2,
+            14
+          ]
+        },
+        {
+          "channel": "IW/YZ",
+          "expected_no_edge_pair_count": 1,
+          "expected_no_edge_pairs": [
+            [
+              1,
+              10
+            ]
+          ],
+          "expected_pair_count": 4,
+          "expected_relation_counts": {
+            "no_edge": 1
+          },
+          "expected_signed_pair_count": 0,
+          "expected_signed_pairs": [],
+          "nonexpected_relation_counts": {
+            "no_edge": 7,
+            "signed_neg": 2,
+            "signed_pos": 1
+          },
+          "nonexpected_signed_pair_count": 3,
+          "nonexpected_signed_pairs_first_30": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              14,
+              10
+            ]
+          ],
+          "possible_pair_count": 11,
+          "possible_relation_counts": {
+            "no_edge": 8,
+            "signed_neg": 2,
+            "signed_pos": 1
+          },
+          "rows": [
+            {
+              "from_C": 1,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 0
+            },
+            {
+              "from_C": 1,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 2
+            },
+            {
+              "from_C": 1,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 5
+            },
+            {
+              "from_C": 1,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 10
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 0
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 5
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 10
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 0
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 5
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": false,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 10
+            }
+          ],
+          "source_block": "C",
+          "source_values": [
+            1,
+            2,
+            14
+          ],
+          "target_block": "A",
+          "target_values": [
+            0,
+            2,
+            5,
+            10
+          ]
+        }
+      ],
+      "expected_pair_count": 12,
+      "index": 2,
+      "is_target": false,
+      "possible_pair_count": 37,
+      "total_expected_no_edge_pair_count": 5,
+      "total_expected_relation_counts": {
+        "no_edge": 5,
+        "signed_neg": 1
+      },
+      "total_expected_signed_pair_count": 1,
+      "total_nonexpected_relation_counts": {
+        "no_edge": 19,
+        "signed_neg": 8,
+        "signed_pos": 4
+      },
+      "total_nonexpected_signed_pair_count": 12,
+      "total_possible_relation_counts": {
+        "no_edge": 24,
+        "signed_neg": 9,
+        "signed_pos": 4
+      }
+    },
+    {
+      "A": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "B": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "C": [
+        1,
+        2,
+        5
+      ],
+      "channel_rows": [
+        {
+          "channel": "WX/ZT",
+          "expected_no_edge_pair_count": 4,
+          "expected_no_edge_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              14,
+              11
+            ]
+          ],
+          "expected_pair_count": 4,
+          "expected_relation_counts": {
+            "no_edge": 4
+          },
+          "expected_signed_pair_count": 0,
+          "expected_signed_pairs": [],
+          "nonexpected_relation_counts": {
+            "no_edge": 6,
+            "signed_neg": 4,
+            "signed_pos": 1
+          },
+          "nonexpected_signed_pair_count": 5,
+          "nonexpected_signed_pairs_first_30": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              14,
+              4
+            ]
+          ],
+          "possible_pair_count": 15,
+          "possible_relation_counts": {
+            "no_edge": 10,
+            "signed_neg": 4,
+            "signed_pos": 1
+          },
+          "rows": [
+            {
+              "from_C": 0,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 0,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 4
+            },
+            {
+              "from_C": 0,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 11
+            },
+            {
+              "from_C": 0,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 13
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 4
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 11
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 13
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 4
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 11
+            },
+            {
+              "from_C": 10,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 13
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 4
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 11
+            },
+            {
+              "from_C": 14,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 13
+            }
+          ],
+          "source_block": "A",
+          "source_values": [
+            0,
+            2,
+            10,
+            14
+          ],
+          "target_block": "B",
+          "target_values": [
+            2,
+            4,
+            11,
+            13
+          ]
+        },
+        {
+          "channel": "TI/XY",
+          "expected_no_edge_pair_count": 2,
+          "expected_no_edge_pairs": [
+            [
+              2,
+              5
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "expected_pair_count": 4,
+          "expected_relation_counts": {
+            "no_edge": 2,
+            "signed_neg": 2
+          },
+          "expected_signed_pair_count": 2,
+          "expected_signed_pairs": [
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              2
+            ]
+          ],
+          "nonexpected_relation_counts": {
+            "no_edge": 4,
+            "signed_neg": 1,
+            "signed_pos": 2
+          },
+          "nonexpected_signed_pair_count": 3,
+          "nonexpected_signed_pairs_first_30": [
+            [
+              2,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              2
+            ]
+          ],
+          "possible_pair_count": 11,
+          "possible_relation_counts": {
+            "no_edge": 6,
+            "signed_neg": 3,
+            "signed_pos": 2
+          },
+          "rows": [
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 1
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 5
+            },
+            {
+              "from_C": 4,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 1
+            },
+            {
+              "from_C": 4,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 4,
+              "is_expected_transition": true,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 5
+            },
+            {
+              "from_C": 11,
+              "is_expected_transition": false,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 1
+            },
+            {
+              "from_C": 11,
+              "is_expected_transition": true,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 2
+            },
+            {
+              "from_C": 11,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 5
+            },
+            {
+              "from_C": 13,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 1
+            },
+            {
+              "from_C": 13,
+              "is_expected_transition": false,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 2
+            },
+            {
+              "from_C": 13,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 5
+            }
+          ],
+          "source_block": "B",
+          "source_values": [
+            2,
+            4,
+            11,
+            13
+          ],
+          "target_block": "C",
+          "target_values": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "channel": "IW/YZ",
+          "expected_no_edge_pair_count": 3,
+          "expected_no_edge_pairs": [
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "expected_pair_count": 4,
+          "expected_relation_counts": {
+            "no_edge": 3,
+            "signed_pos": 1
+          },
+          "expected_signed_pair_count": 1,
+          "expected_signed_pairs": [
+            [
+              5,
+              0
+            ]
+          ],
+          "nonexpected_relation_counts": {
+            "no_edge": 5,
+            "signed_neg": 2
+          },
+          "nonexpected_signed_pair_count": 2,
+          "nonexpected_signed_pairs_first_30": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "possible_pair_count": 11,
+          "possible_relation_counts": {
+            "no_edge": 8,
+            "signed_neg": 2,
+            "signed_pos": 1
+          },
+          "rows": [
+            {
+              "from_C": 1,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 0
+            },
+            {
+              "from_C": 1,
+              "is_expected_transition": false,
+              "sign": -1,
+              "signed_relation": "signed_neg",
+              "to_C": 2
+            },
+            {
+              "from_C": 1,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 10
+            },
+            {
+              "from_C": 1,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 14
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 0
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 10
+            },
+            {
+              "from_C": 2,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 14
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": true,
+              "sign": 1,
+              "signed_relation": "signed_pos",
+              "to_C": 0
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": true,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 2
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 10
+            },
+            {
+              "from_C": 5,
+              "is_expected_transition": false,
+              "sign": null,
+              "signed_relation": "no_edge",
+              "to_C": 14
+            }
+          ],
+          "source_block": "C",
+          "source_values": [
+            1,
+            2,
+            5
+          ],
+          "target_block": "A",
+          "target_values": [
+            0,
+            2,
+            10,
+            14
+          ]
+        }
+      ],
+      "expected_pair_count": 12,
+      "index": 3,
+      "is_target": true,
+      "possible_pair_count": 37,
+      "total_expected_no_edge_pair_count": 9,
+      "total_expected_relation_counts": {
+        "no_edge": 9,
+        "signed_neg": 2,
+        "signed_pos": 1
+      },
+      "total_expected_signed_pair_count": 3,
+      "total_nonexpected_relation_counts": {
+        "no_edge": 15,
+        "signed_neg": 7,
+        "signed_pos": 3
+      },
+      "total_nonexpected_signed_pair_count": 10,
+      "total_possible_relation_counts": {
+        "no_edge": 24,
+        "signed_neg": 9,
+        "signed_pos": 4
+      }
+    }
+  ],
+  "input_selector": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/role_block_directed_transition_selector_006c.v1.json",
+  "input_signed_g15": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/signed_g15_q3_automorphism_search_001.v1.json",
+  "interpretation": "This audits where the expected directed C-transitions sit inside the signed-G15 block cut matrix. It distinguishes expected signed edges, expected non-edges, and signed edges that are not expected transitions.",
+  "status": "c_transition_expected_vs_signed_cut_profile_recorded",
+  "target_relation_summary": {
+    "A": [
+      0,
+      2,
+      10,
+      14
+    ],
+    "B": [
+      2,
+      4,
+      11,
+      13
+    ],
+    "C": [
+      1,
+      2,
+      5
+    ],
+    "channel_rows": [
+      {
+        "channel": "WX/ZT",
+        "expected_no_edge_pair_count": 4,
+        "expected_no_edge_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            14,
+            11
+          ]
+        ],
+        "expected_pair_count": 4,
+        "expected_relation_counts": {
+          "no_edge": 4
+        },
+        "expected_signed_pair_count": 0,
+        "expected_signed_pairs": [],
+        "nonexpected_relation_counts": {
+          "no_edge": 6,
+          "signed_neg": 4,
+          "signed_pos": 1
+        },
+        "nonexpected_signed_pair_count": 5,
+        "nonexpected_signed_pairs_first_30": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            14,
+            4
+          ]
+        ],
+        "possible_pair_count": 15,
+        "possible_relation_counts": {
+          "no_edge": 10,
+          "signed_neg": 4,
+          "signed_pos": 1
+        },
+        "rows": [
+          {
+            "from_C": 0,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 2
+          },
+          {
+            "from_C": 0,
+            "is_expected_transition": false,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 4
+          },
+          {
+            "from_C": 0,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 11
+          },
+          {
+            "from_C": 0,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 13
+          },
+          {
+            "from_C": 2,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 4
+          },
+          {
+            "from_C": 2,
+            "is_expected_transition": false,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 11
+          },
+          {
+            "from_C": 2,
+            "is_expected_transition": false,
+            "sign": 1,
+            "signed_relation": "signed_pos",
+            "to_C": 13
+          },
+          {
+            "from_C": 10,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 2
+          },
+          {
+            "from_C": 10,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 4
+          },
+          {
+            "from_C": 10,
+            "is_expected_transition": false,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 11
+          },
+          {
+            "from_C": 10,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 13
+          },
+          {
+            "from_C": 14,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 2
+          },
+          {
+            "from_C": 14,
+            "is_expected_transition": false,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 4
+          },
+          {
+            "from_C": 14,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 11
+          },
+          {
+            "from_C": 14,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 13
+          }
+        ],
+        "source_block": "A",
+        "source_values": [
+          0,
+          2,
+          10,
+          14
+        ],
+        "target_block": "B",
+        "target_values": [
+          2,
+          4,
+          11,
+          13
+        ]
+      },
+      {
+        "channel": "TI/XY",
+        "expected_no_edge_pair_count": 2,
+        "expected_no_edge_pairs": [
+          [
+            2,
+            5
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "expected_pair_count": 4,
+        "expected_relation_counts": {
+          "no_edge": 2,
+          "signed_neg": 2
+        },
+        "expected_signed_pair_count": 2,
+        "expected_signed_pairs": [
+          [
+            4,
+            5
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        "nonexpected_relation_counts": {
+          "no_edge": 4,
+          "signed_neg": 1,
+          "signed_pos": 2
+        },
+        "nonexpected_signed_pair_count": 3,
+        "nonexpected_signed_pairs_first_30": [
+          [
+            2,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            13,
+            2
+          ]
+        ],
+        "possible_pair_count": 11,
+        "possible_relation_counts": {
+          "no_edge": 6,
+          "signed_neg": 3,
+          "signed_pos": 2
+        },
+        "rows": [
+          {
+            "from_C": 2,
+            "is_expected_transition": false,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 1
+          },
+          {
+            "from_C": 2,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 5
+          },
+          {
+            "from_C": 4,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 1
+          },
+          {
+            "from_C": 4,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 2
+          },
+          {
+            "from_C": 4,
+            "is_expected_transition": true,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 5
+          },
+          {
+            "from_C": 11,
+            "is_expected_transition": false,
+            "sign": 1,
+            "signed_relation": "signed_pos",
+            "to_C": 1
+          },
+          {
+            "from_C": 11,
+            "is_expected_transition": true,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 2
+          },
+          {
+            "from_C": 11,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 5
+          },
+          {
+            "from_C": 13,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 1
+          },
+          {
+            "from_C": 13,
+            "is_expected_transition": false,
+            "sign": 1,
+            "signed_relation": "signed_pos",
+            "to_C": 2
+          },
+          {
+            "from_C": 13,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 5
+          }
+        ],
+        "source_block": "B",
+        "source_values": [
+          2,
+          4,
+          11,
+          13
+        ],
+        "target_block": "C",
+        "target_values": [
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "channel": "IW/YZ",
+        "expected_no_edge_pair_count": 3,
+        "expected_no_edge_pairs": [
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            14
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "expected_pair_count": 4,
+        "expected_relation_counts": {
+          "no_edge": 3,
+          "signed_pos": 1
+        },
+        "expected_signed_pair_count": 1,
+        "expected_signed_pairs": [
+          [
+            5,
+            0
+          ]
+        ],
+        "nonexpected_relation_counts": {
+          "no_edge": 5,
+          "signed_neg": 2
+        },
+        "nonexpected_signed_pair_count": 2,
+        "nonexpected_signed_pairs_first_30": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "possible_pair_count": 11,
+        "possible_relation_counts": {
+          "no_edge": 8,
+          "signed_neg": 2,
+          "signed_pos": 1
+        },
+        "rows": [
+          {
+            "from_C": 1,
+            "is_expected_transition": false,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 0
+          },
+          {
+            "from_C": 1,
+            "is_expected_transition": false,
+            "sign": -1,
+            "signed_relation": "signed_neg",
+            "to_C": 2
+          },
+          {
+            "from_C": 1,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 10
+          },
+          {
+            "from_C": 1,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 14
+          },
+          {
+            "from_C": 2,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 0
+          },
+          {
+            "from_C": 2,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 10
+          },
+          {
+            "from_C": 2,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 14
+          },
+          {
+            "from_C": 5,
+            "is_expected_transition": true,
+            "sign": 1,
+            "signed_relation": "signed_pos",
+            "to_C": 0
+          },
+          {
+            "from_C": 5,
+            "is_expected_transition": true,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 2
+          },
+          {
+            "from_C": 5,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 10
+          },
+          {
+            "from_C": 5,
+            "is_expected_transition": false,
+            "sign": null,
+            "signed_relation": "no_edge",
+            "to_C": 14
+          }
+        ],
+        "source_block": "C",
+        "source_values": [
+          1,
+          2,
+          5
+        ],
+        "target_block": "A",
+        "target_values": [
+          0,
+          2,
+          10,
+          14
+        ]
+      }
+    ],
+    "expected_pair_count": 12,
+    "index": 3,
+    "is_target": true,
+    "possible_pair_count": 37,
+    "total_expected_no_edge_pair_count": 9,
+    "total_expected_relation_counts": {
+      "no_edge": 9,
+      "signed_neg": 2,
+      "signed_pos": 1
+    },
+    "total_expected_signed_pair_count": 3,
+    "total_nonexpected_relation_counts": {
+      "no_edge": 15,
+      "signed_neg": 7,
+      "signed_pos": 3
+    },
+    "total_nonexpected_signed_pair_count": 10,
+    "total_possible_relation_counts": {
+      "no_edge": 24,
+      "signed_neg": 9,
+      "signed_pos": 4
+    }
+  }
+}
