@@ -1,0 +1,1871 @@
+{
+  "candidate_count": 8,
+  "candidate_rows": [
+    {
+      "candidate": [
+        0,
+        11,
+        13,
+        14
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            9
+          ],
+          [
+            "neg",
+            5
+          ],
+          [
+            "none",
+            23
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            5
+          ],
+          [
+            "none",
+            11
+          ],
+          [
+            "pos",
+            3
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            7
+          ],
+          [
+            "neg",
+            3
+          ],
+          [
+            "none",
+            17
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 4,
+        "intersect_q0_count": 1,
+        "intersect_unobserved_count": 0,
+        "is_disjoint_q0": false,
+        "is_disjoint_unobserved": true,
+        "is_subset_observed": true,
+        "labelled_neighbor_fingerprint": [
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "max": 14,
+        "min": 0,
+        "signed_degree_labelled": [
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 38,
+        "sum_mod15": 8
+      },
+      "is_target_q3": false
+    },
+    {
+      "candidate": [
+        0,
+        12,
+        13,
+        14
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            9
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            24
+          ],
+          [
+            "pos",
+            5
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            6
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            13
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            7
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            16
+          ],
+          [
+            "pos",
+            3
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 3,
+        "intersect_q0_count": 1,
+        "intersect_unobserved_count": 1,
+        "is_disjoint_q0": false,
+        "is_disjoint_unobserved": false,
+        "is_subset_observed": false,
+        "labelled_neighbor_fingerprint": [
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            12,
+            1,
+            0,
+            1,
+            0,
+            1,
+            2
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "max": 14,
+        "min": 0,
+        "signed_degree_labelled": [
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            12,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 39,
+        "sum_mod15": 9
+      },
+      "is_target_q3": false
+    },
+    {
+      "candidate": [
+        5,
+        8,
+        11,
+        13
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            25
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            12
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            15
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 3,
+        "intersect_q0_count": 0,
+        "intersect_unobserved_count": 1,
+        "is_disjoint_q0": true,
+        "is_disjoint_unobserved": false,
+        "is_subset_observed": false,
+        "labelled_neighbor_fingerprint": [
+          [
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ]
+        ],
+        "max": 13,
+        "min": 5,
+        "signed_degree_labelled": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            8,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 37,
+        "sum_mod15": 7
+      },
+      "is_target_q3": false
+    },
+    {
+      "candidate": [
+        5,
+        8,
+        11,
+        14
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            9
+          ],
+          [
+            "neg",
+            5
+          ],
+          [
+            "none",
+            24
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            9
+          ],
+          [
+            "neg",
+            5
+          ],
+          [
+            "none",
+            11
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            7
+          ],
+          [
+            "neg",
+            3
+          ],
+          [
+            "none",
+            16
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 3,
+        "intersect_q0_count": 0,
+        "intersect_unobserved_count": 1,
+        "is_disjoint_q0": true,
+        "is_disjoint_unobserved": false,
+        "is_subset_observed": false,
+        "labelled_neighbor_fingerprint": [
+          [
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "max": 14,
+        "min": 5,
+        "signed_degree_labelled": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            8,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 38,
+        "sum_mod15": 8
+      },
+      "is_target_q3": false
+    },
+    {
+      "candidate": [
+        5,
+        8,
+        13,
+        14
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            7
+          ],
+          [
+            "neg",
+            3
+          ],
+          [
+            "none",
+            26
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            7
+          ],
+          [
+            "neg",
+            3
+          ],
+          [
+            "none",
+            13
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            9
+          ],
+          [
+            "neg",
+            5
+          ],
+          [
+            "none",
+            14
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 3,
+        "intersect_q0_count": 0,
+        "intersect_unobserved_count": 1,
+        "is_disjoint_q0": true,
+        "is_disjoint_unobserved": false,
+        "is_subset_observed": false,
+        "labelled_neighbor_fingerprint": [
+          [
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "max": 14,
+        "min": 5,
+        "signed_degree_labelled": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            8,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 40,
+        "sum_mod15": 10
+      },
+      "is_target_q3": false
+    },
+    {
+      "candidate": [
+        5,
+        11,
+        13,
+        14
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            24
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            12
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            16
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 4,
+        "intersect_q0_count": 0,
+        "intersect_unobserved_count": 0,
+        "is_disjoint_q0": true,
+        "is_disjoint_unobserved": true,
+        "is_subset_observed": true,
+        "labelled_neighbor_fingerprint": [
+          [
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "max": 14,
+        "min": 5,
+        "signed_degree_labelled": [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 43,
+        "sum_mod15": 13
+      },
+      "is_target_q3": true
+    },
+    {
+      "candidate": [
+        8,
+        11,
+        13,
+        14
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            25
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            12
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            15
+          ],
+          [
+            "pos",
+            4
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 3,
+        "intersect_q0_count": 0,
+        "intersect_unobserved_count": 1,
+        "is_disjoint_q0": true,
+        "is_disjoint_unobserved": false,
+        "is_subset_observed": false,
+        "labelled_neighbor_fingerprint": [
+          [
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "max": 14,
+        "min": 8,
+        "signed_degree_labelled": [
+          [
+            8,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 46,
+        "sum_mod15": 1
+      },
+      "is_target_q3": false
+    },
+    {
+      "candidate": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "features": {
+        "cut_to_complement": [
+          [
+            "edge_count",
+            16
+          ],
+          [
+            "neg",
+            8
+          ],
+          [
+            "none",
+            28
+          ],
+          [
+            "pos",
+            8
+          ]
+        ],
+        "cut_to_observed": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            3
+          ],
+          [
+            "none",
+            26
+          ],
+          [
+            "pos",
+            5
+          ]
+        ],
+        "cut_to_q0": [
+          [
+            "edge_count",
+            6
+          ],
+          [
+            "neg",
+            3
+          ],
+          [
+            "none",
+            14
+          ],
+          [
+            "pos",
+            3
+          ]
+        ],
+        "cut_to_unobserved": [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            5
+          ],
+          [
+            "none",
+            14
+          ],
+          [
+            "pos",
+            3
+          ]
+        ],
+        "induced_complement": [
+          [
+            "edge_count",
+            14
+          ],
+          [
+            "neg",
+            12
+          ],
+          [
+            "none",
+            41
+          ],
+          [
+            "pos",
+            2
+          ]
+        ],
+        "intersect_observed_count": 2,
+        "intersect_q0_count": 0,
+        "intersect_unobserved_count": 2,
+        "is_disjoint_q0": true,
+        "is_disjoint_unobserved": false,
+        "is_subset_observed": false,
+        "labelled_neighbor_fingerprint": [
+          [
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            12,
+            1,
+            0,
+            1,
+            0,
+            1,
+            2
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "max": 14,
+        "min": 8,
+        "signed_degree_labelled": [
+          [
+            8,
+            2,
+            2
+          ],
+          [
+            12,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ],
+        "signed_degree_multiset": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "sum": 47,
+        "sum_mod15": 2
+      },
+      "is_target_q3": false
+    }
+  ],
+  "exact_single_feature_count": 6,
+  "exact_single_features": [
+    {
+      "feature": "cut_to_observed",
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            24
+          ],
+          [
+            "pos",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "feature": "cut_to_unobserved",
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            16
+          ],
+          [
+            "pos",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "feature": "labelled_neighbor_fingerprint",
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "feature": "signed_degree_labelled",
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "feature": "sum",
+      "target_hit_count": 1,
+      "target_key": [
+        43
+      ]
+    },
+    {
+      "feature": "sum_mod15",
+      "target_hit_count": 1,
+      "target_key": [
+        13
+      ]
+    }
+  ],
+  "failed_checks": [],
+  "feature_names_tested": [
+    "cut_to_complement",
+    "cut_to_observed",
+    "cut_to_q0",
+    "cut_to_unobserved",
+    "induced_complement",
+    "intersect_observed_count",
+    "intersect_q0_count",
+    "intersect_unobserved_count",
+    "is_disjoint_q0",
+    "is_disjoint_unobserved",
+    "is_subset_observed",
+    "labelled_neighbor_fingerprint",
+    "max",
+    "min",
+    "signed_degree_labelled",
+    "signed_degree_multiset",
+    "sum",
+    "sum_mod15"
+  ],
+  "interpretation": "This tests whether the 8 q3-profile candidates are separated by context fingerprints from the observed/unobserved/q0 lift partition. It is not a G60-native generator proof and does not close Gap A.",
+  "least_exact_feature_set_count": 6,
+  "least_exact_feature_sets_first_20": [
+    {
+      "features": [
+        "cut_to_observed"
+      ],
+      "size": 1,
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            24
+          ],
+          [
+            "pos",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "features": [
+        "cut_to_unobserved"
+      ],
+      "size": 1,
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            "edge_count",
+            8
+          ],
+          [
+            "neg",
+            4
+          ],
+          [
+            "none",
+            16
+          ],
+          [
+            "pos",
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "features": [
+        "labelled_neighbor_fingerprint"
+      ],
+      "size": 1,
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            13,
+            0,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "features": [
+        "signed_degree_labelled"
+      ],
+      "size": 1,
+      "target_hit_count": 1,
+      "target_key": [
+        [
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            2
+          ],
+          [
+            13,
+            2,
+            2
+          ],
+          [
+            14,
+            2,
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "features": [
+        "sum"
+      ],
+      "size": 1,
+      "target_hit_count": 1,
+      "target_key": [
+        43
+      ]
+    },
+    {
+      "features": [
+        "sum_mod15"
+      ],
+      "size": 1,
+      "target_hit_count": 1,
+      "target_key": [
+        13
+      ]
+    }
+  ],
+  "observed": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    10,
+    11,
+    13,
+    14
+  ],
+  "q0": [
+    0,
+    1,
+    2,
+    4,
+    10
+  ],
+  "q3": [
+    5,
+    11,
+    13,
+    14
+  ],
+  "signed_edge_count": 30,
+  "status": "q3_candidate_context_fingerprint_search_recorded",
+  "target_q3": [
+    5,
+    11,
+    13,
+    14
+  ],
+  "unobserved": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    12
+  ]
+}
