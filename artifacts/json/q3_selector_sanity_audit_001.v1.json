@@ -1,0 +1,342 @@
+{
+  "boundary": "This does not close Gap A. It shows that observed/unobserved lift context can select q3 among the 8 rare signed-profile candidates. The next task is to derive or refute the observed/unobserved partition from native oriented G15/G60 or WXYZTI station constraints.",
+  "candidate_count": 8,
+  "candidate_summaries": [
+    {
+      "candidate": [
+        0,
+        11,
+        13,
+        14
+      ],
+      "cut_to_observed": {
+        "edge_count": 9,
+        "neg": 5,
+        "none": 23,
+        "pos": 4
+      },
+      "cut_to_q0": {
+        "edge_count": 8,
+        "neg": 5,
+        "none": 11,
+        "pos": 3
+      },
+      "cut_to_unobserved": {
+        "edge_count": 7,
+        "neg": 3,
+        "none": 17,
+        "pos": 4
+      },
+      "intersect_observed_count": 4,
+      "intersect_q0_count": 1,
+      "intersect_unobserved_count": 0,
+      "is_target_q3": false,
+      "sum": 38,
+      "sum_mod15": 8
+    },
+    {
+      "candidate": [
+        0,
+        12,
+        13,
+        14
+      ],
+      "cut_to_observed": {
+        "edge_count": 9,
+        "neg": 4,
+        "none": 24,
+        "pos": 5
+      },
+      "cut_to_q0": {
+        "edge_count": 6,
+        "neg": 4,
+        "none": 13,
+        "pos": 2
+      },
+      "cut_to_unobserved": {
+        "edge_count": 7,
+        "neg": 4,
+        "none": 16,
+        "pos": 3
+      },
+      "intersect_observed_count": 3,
+      "intersect_q0_count": 1,
+      "intersect_unobserved_count": 1,
+      "is_target_q3": false,
+      "sum": 39,
+      "sum_mod15": 9
+    },
+    {
+      "candidate": [
+        5,
+        8,
+        11,
+        13
+      ],
+      "cut_to_observed": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 25,
+        "pos": 4
+      },
+      "cut_to_q0": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 12,
+        "pos": 4
+      },
+      "cut_to_unobserved": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 15,
+        "pos": 4
+      },
+      "intersect_observed_count": 3,
+      "intersect_q0_count": 0,
+      "intersect_unobserved_count": 1,
+      "is_target_q3": false,
+      "sum": 37,
+      "sum_mod15": 7
+    },
+    {
+      "candidate": [
+        5,
+        8,
+        11,
+        14
+      ],
+      "cut_to_observed": {
+        "edge_count": 9,
+        "neg": 5,
+        "none": 24,
+        "pos": 4
+      },
+      "cut_to_q0": {
+        "edge_count": 9,
+        "neg": 5,
+        "none": 11,
+        "pos": 4
+      },
+      "cut_to_unobserved": {
+        "edge_count": 7,
+        "neg": 3,
+        "none": 16,
+        "pos": 4
+      },
+      "intersect_observed_count": 3,
+      "intersect_q0_count": 0,
+      "intersect_unobserved_count": 1,
+      "is_target_q3": false,
+      "sum": 38,
+      "sum_mod15": 8
+    },
+    {
+      "candidate": [
+        5,
+        8,
+        13,
+        14
+      ],
+      "cut_to_observed": {
+        "edge_count": 7,
+        "neg": 3,
+        "none": 26,
+        "pos": 4
+      },
+      "cut_to_q0": {
+        "edge_count": 7,
+        "neg": 3,
+        "none": 13,
+        "pos": 4
+      },
+      "cut_to_unobserved": {
+        "edge_count": 9,
+        "neg": 5,
+        "none": 14,
+        "pos": 4
+      },
+      "intersect_observed_count": 3,
+      "intersect_q0_count": 0,
+      "intersect_unobserved_count": 1,
+      "is_target_q3": false,
+      "sum": 40,
+      "sum_mod15": 10
+    },
+    {
+      "candidate": [
+        5,
+        11,
+        13,
+        14
+      ],
+      "cut_to_observed": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 24,
+        "pos": 4
+      },
+      "cut_to_q0": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 12,
+        "pos": 4
+      },
+      "cut_to_unobserved": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 16,
+        "pos": 4
+      },
+      "intersect_observed_count": 4,
+      "intersect_q0_count": 0,
+      "intersect_unobserved_count": 0,
+      "is_target_q3": true,
+      "sum": 43,
+      "sum_mod15": 13
+    },
+    {
+      "candidate": [
+        8,
+        11,
+        13,
+        14
+      ],
+      "cut_to_observed": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 25,
+        "pos": 4
+      },
+      "cut_to_q0": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 12,
+        "pos": 4
+      },
+      "cut_to_unobserved": {
+        "edge_count": 8,
+        "neg": 4,
+        "none": 15,
+        "pos": 4
+      },
+      "intersect_observed_count": 3,
+      "intersect_q0_count": 0,
+      "intersect_unobserved_count": 1,
+      "is_target_q3": false,
+      "sum": 46,
+      "sum_mod15": 1
+    },
+    {
+      "candidate": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "cut_to_observed": {
+        "edge_count": 8,
+        "neg": 3,
+        "none": 26,
+        "pos": 5
+      },
+      "cut_to_q0": {
+        "edge_count": 6,
+        "neg": 3,
+        "none": 14,
+        "pos": 3
+      },
+      "cut_to_unobserved": {
+        "edge_count": 8,
+        "neg": 5,
+        "none": 14,
+        "pos": 3
+      },
+      "intersect_observed_count": 2,
+      "intersect_q0_count": 0,
+      "intersect_unobserved_count": 2,
+      "is_target_q3": false,
+      "sum": 47,
+      "sum_mod15": 2
+    }
+  ],
+  "classified_exact_single_features": [
+    {
+      "class": "context_structural",
+      "feature": "cut_to_observed"
+    },
+    {
+      "class": "context_structural",
+      "feature": "cut_to_unobserved"
+    },
+    {
+      "class": "labelled_absolute",
+      "feature": "labelled_neighbor_fingerprint"
+    },
+    {
+      "class": "labelled_absolute",
+      "feature": "signed_degree_labelled"
+    },
+    {
+      "class": "label_arithmetic",
+      "feature": "sum"
+    },
+    {
+      "class": "label_arithmetic",
+      "feature": "sum_mod15"
+    }
+  ],
+  "context_structural_exact_features": [
+    "cut_to_observed",
+    "cut_to_unobserved"
+  ],
+  "exact_single_features": [
+    "cut_to_observed",
+    "cut_to_unobserved",
+    "labelled_neighbor_fingerprint",
+    "signed_degree_labelled",
+    "sum",
+    "sum_mod15"
+  ],
+  "input": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/q3_candidate_context_fingerprint_search_001.v1.json",
+  "interpretation": "The q3 candidate is selected by context-structural cut features, but also by label-dependent arithmetic and labelled fingerprints. Only the context-cut features should be treated as meaningful at this stage. This is a selector sanity audit, not a G60-native generator derivation.",
+  "label_dependent_exact_features": [
+    "labelled_neighbor_fingerprint",
+    "signed_degree_labelled",
+    "sum",
+    "sum_mod15"
+  ],
+  "status": "q3_selector_sanity_audit_recorded",
+  "target_q3_summary": {
+    "candidate": [
+      5,
+      11,
+      13,
+      14
+    ],
+    "cut_to_observed": {
+      "edge_count": 8,
+      "neg": 4,
+      "none": 24,
+      "pos": 4
+    },
+    "cut_to_q0": {
+      "edge_count": 8,
+      "neg": 4,
+      "none": 12,
+      "pos": 4
+    },
+    "cut_to_unobserved": {
+      "edge_count": 8,
+      "neg": 4,
+      "none": 16,
+      "pos": 4
+    },
+    "intersect_observed_count": 4,
+    "intersect_q0_count": 0,
+    "intersect_unobserved_count": 0,
+    "is_target_q3": true,
+    "sum": 43,
+    "sum_mod15": 13
+  },
+  "unlabelled_structural_exact_features": []
+}
