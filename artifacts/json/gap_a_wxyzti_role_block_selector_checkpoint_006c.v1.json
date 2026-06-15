@@ -1,0 +1,117 @@
+{
+  "boundary": {
+    "g60_native_generator_derived": false,
+    "g900_admitted": false,
+    "gap_a_closed": false,
+    "physical_interpretation_derived": false,
+    "wxyzti_is_carrier_adjacency": false
+  },
+  "checkpoint": "006c",
+  "core_result": {
+    "channel_order": [
+      {
+        "from": "A",
+        "role_pair": "WX/ZT",
+        "to": "B"
+      },
+      {
+        "from": "B",
+        "role_pair": "TI/XY",
+        "to": "C"
+      },
+      {
+        "from": "C",
+        "role_pair": "IW/YZ",
+        "to": "A"
+      }
+    ],
+    "observed_support": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "q0_values": [
+      0,
+      1,
+      2,
+      4,
+      10
+    ],
+    "q3_values": [
+      5,
+      11,
+      13,
+      14
+    ],
+    "shared_junction": 2,
+    "summary": "The WXYZTI overlay has a strong local selector chain. Signed G15 native profile reduces the role-block circulation candidates to 7. Observed support, q0/q3 inclusion, and shared junction C=2 reduce those to 2. Directed WXYZTI channel compatibility selects exactly the target circulation.",
+    "target_blocks": {
+      "A": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "B": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "C": [
+        1,
+        2,
+        5
+      ]
+    },
+    "unobserved_complement": [
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ]
+  },
+  "interpretation": "This is a strong local selector chain for the WXYZTI role-block circulation. It shows that the target circulation is not arbitrary inside the signed G15/WXYZTI context. It is not, however, a G60-native generator derivation, because the directed WXYZTI transition table remains upstream.",
+  "key_counts": {
+    "block_profile_match_count_006": 195149,
+    "candidate_count_006c": 2,
+    "channel_cut_match_count_006": 135,
+    "exact_directed_transition_cover_count_006c": 1,
+    "full_native_profile_match_count_006": 7,
+    "junction_2_match_count_006b": 2,
+    "non_target_selected_count_006c": 0,
+    "observed_union_match_count_006b": 2,
+    "q0_subset_union_match_count_006b": 2,
+    "q3_subset_union_match_count_006b": 2,
+    "target_selected_006c": true,
+    "total_valid_shape_006": 25225200
+  },
+  "next_problem": "Derive or independently source the directed WXYZTI transition table from WXYZTI station constraints, oriented G15/G60 structure, old Hyperxi/G60 involution shadows, or another native object not using the directed transition table as an assumption.",
+  "selector_chain": [
+    {
+      "result": "7 full native-profile matches among 25225200 valid ordered triples",
+      "source_artifact": "role_block_circulation_native_profile_census_006.v1.json",
+      "step": "signed_g15_native_profile"
+    },
+    {
+      "result": "7 candidates reduce to 2 observed-union/junction-2/q0/q3 candidates",
+      "source_artifact": "role_block_full_profile_match_inspection_006b.v1.json",
+      "step": "observed_q0_q3_junction_context"
+    },
+    {
+      "result": "2 candidates reduce to 1; target selected, non-target selected count 0",
+      "source_artifact": "role_block_directed_transition_selector_006c.v1.json",
+      "step": "directed_wxyzti_channel_compatibility"
+    }
+  ],
+  "status": "gap_a_wxyzti_role_block_selector_checkpoint_recorded",
+  "title": "WXYZTI role-block selector chain for the Gap A subproblem"
+}
