@@ -1,0 +1,102 @@
+{
+  "boundary": {
+    "candidate_universe_generated": false,
+    "g60_native_generator_derived": false,
+    "g900_admitted": false,
+    "gap_a_closed": false,
+    "physical_interpretation_derived": false
+  },
+  "checkpoint": "021",
+  "compact_statement": "The witness is the nearest neighbor that answers back: the shared_B carrier preserves B/slot, while the paired reverse_partner row supplies the returned C value by swapping B and C.",
+  "core_result": {
+    "bad_bucket_count": 0,
+    "pair_count": 12,
+    "reverse_role_counts": {
+      "TI": 4,
+      "WX": 4,
+      "YZ": 4
+    },
+    "shared_role_counts": {
+      "IW": 4,
+      "XY": 4,
+      "ZT": 4
+    },
+    "summary": "The realized WXYZTI overlay has a paired local grammar. Each directed C-transition has one shared_B row and one reciprocal reverse_partner row. reverse_partner is the answering row: it preserves A and swaps B/C. shared_B preserves B/slot, and its target C is supplied by the paired reverse_partner row."
+  },
+  "inputs": {
+    "role_class_invariant_audit_018": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+    "sharedB_invariant_search_020": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_sharedB_invariant_search_020.v1.json",
+    "shared_reverse_pair_coupling_audit_021": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_shared_reverse_pair_coupling_audit_021.v1.json",
+    "station_transform_map_audit_019": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_station_transform_map_audit_019.v1.json"
+  },
+  "next_problem": "Generate the 12 reciprocal shared_B/reverse_partner pairs from a native candidate universe, rather than merely auditing realized WXYZTI rows.",
+  "pair_coupling_law": {
+    "exact_true_flag_count": 16,
+    "exact_true_flags": [
+      "R_preserves_A",
+      "R_swaps_BC",
+      "R_to_B_eq_S_from_C",
+      "R_to_slot_eq_S_from_C",
+      "S_from_C_eq_R_from_C",
+      "S_preserves_B",
+      "S_preserves_slot",
+      "S_to_C_eq_R_from_B",
+      "S_to_C_eq_R_from_slot",
+      "S_to_C_eq_R_to_C",
+      "same_C_delta",
+      "same_from_C",
+      "same_integer_C_delta",
+      "same_lift_q",
+      "same_role_pair",
+      "same_to_C"
+    ],
+    "interpretation": "shared_B's target C is not explained by a standalone shared_B formula. It is coupled to the reciprocal reverse_partner row whose from_B/from_slot supplies the answer.",
+    "key_equalities": [
+      "S.to_C = R.from_B",
+      "S.to_C = R.from_slot",
+      "R.to_B = S.from_C",
+      "R.to_slot = S.from_C",
+      "S and R share role_pair, from_C, to_C, C_delta, integer_C_delta, and lift_q"
+    ]
+  },
+  "reverse_partner_law": {
+    "exact_true_flags": [
+      "A_preserved",
+      "to_C_equals_from_B",
+      "to_C_equals_from_slot",
+      "to_slot_equals_from_C",
+      "from_slot_equals_from_B",
+      "to_slot_equals_to_B"
+    ],
+    "interpretation": "reverse_partner preserves A, sends to_C = from_B = from_slot, and sends to_B/to_slot = from_C.",
+    "roles": [
+      "TI",
+      "WX",
+      "YZ"
+    ],
+    "row_count": 12,
+    "transform": "(A, B, C) -> (A, C, B)",
+    "transform_exact": true
+  },
+  "shared_B_law": {
+    "exact_true_flags": [
+      "B_preserved",
+      "slot_preserved",
+      "to_slot_equals_from_B",
+      "to_slot_equals_from_slot",
+      "from_slot_equals_from_B",
+      "to_slot_equals_to_B"
+    ],
+    "global_invariant_count": 14,
+    "interpretation": "shared_B preserves B/slot. No additional global linear invariant involving A/C was found in the tested family.",
+    "roles": [
+      "IW",
+      "XY",
+      "ZT"
+    ],
+    "row_count": 12,
+    "substantive_invariant": "B is preserved"
+  },
+  "status": "gap_a_wxyzti_pair_grammar_checkpoint_recorded",
+  "title": "WXYZTI pair grammar checkpoint"
+}
