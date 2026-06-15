@@ -1,0 +1,344 @@
+{
+  "failed_checks": [],
+  "input_bundle": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/g60_native_generator_input_bundle_001.v1.json",
+  "input_census": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_partition_g15_sign_census_001.v1.json",
+  "interpretation": "This tests whether the signed G15 edge pattern sharpens the q3 lift partition. It does not derive the lift rule from G60, close Gap A, or admit full G900.",
+  "q3_profile": {
+    "boundary_edges": 16,
+    "boundary_signs": {
+      "-1": 8,
+      "1": 8
+    },
+    "induced_edges": 0,
+    "induced_signs": {
+      "-1": 0,
+      "1": 0
+    },
+    "size": 4
+  },
+  "q3_profile_match_count_size4": 8,
+  "q3_profile_matches": [
+    [
+      0,
+      11,
+      13,
+      14
+    ],
+    [
+      0,
+      12,
+      13,
+      14
+    ],
+    [
+      5,
+      8,
+      11,
+      13
+    ],
+    [
+      5,
+      8,
+      11,
+      14
+    ],
+    [
+      5,
+      8,
+      13,
+      14
+    ],
+    [
+      5,
+      11,
+      13,
+      14
+    ],
+    [
+      8,
+      11,
+      13,
+      14
+    ],
+    [
+      8,
+      12,
+      13,
+      14
+    ]
+  ],
+  "q3_profile_matches_in_signed_orbit": [
+    [
+      5,
+      11,
+      13,
+      14
+    ]
+  ],
+  "q3_profile_matches_in_signed_orbit_count": 1,
+  "q3_profile_matches_in_unsigned_orbit": [
+    [
+      5,
+      8,
+      11,
+      13
+    ],
+    [
+      5,
+      8,
+      11,
+      14
+    ],
+    [
+      5,
+      8,
+      13,
+      14
+    ],
+    [
+      5,
+      11,
+      13,
+      14
+    ],
+    [
+      8,
+      11,
+      13,
+      14
+    ]
+  ],
+  "q3_profile_matches_in_unsigned_orbit_count": 5,
+  "q3_signed_orbit_size": 1,
+  "q3_signed_stabilizer_count": 1,
+  "q3_unsigned_orbit_size": 30,
+  "signed_automorphism_count": 1,
+  "signed_edge_count": 30,
+  "signed_edges": [
+    {
+      "sign": -1,
+      "u": 0,
+      "v": 1
+    },
+    {
+      "sign": -1,
+      "u": 0,
+      "v": 4
+    },
+    {
+      "sign": 1,
+      "u": 0,
+      "v": 5
+    },
+    {
+      "sign": 1,
+      "u": 0,
+      "v": 8
+    },
+    {
+      "sign": -1,
+      "u": 1,
+      "v": 2
+    },
+    {
+      "sign": -1,
+      "u": 1,
+      "v": 8
+    },
+    {
+      "sign": 1,
+      "u": 1,
+      "v": 11
+    },
+    {
+      "sign": -1,
+      "u": 2,
+      "v": 3
+    },
+    {
+      "sign": -1,
+      "u": 2,
+      "v": 11
+    },
+    {
+      "sign": 1,
+      "u": 2,
+      "v": 13
+    },
+    {
+      "sign": -1,
+      "u": 3,
+      "v": 4
+    },
+    {
+      "sign": -1,
+      "u": 3,
+      "v": 13
+    },
+    {
+      "sign": 1,
+      "u": 3,
+      "v": 14
+    },
+    {
+      "sign": -1,
+      "u": 4,
+      "v": 5
+    },
+    {
+      "sign": -1,
+      "u": 4,
+      "v": 14
+    },
+    {
+      "sign": -1,
+      "u": 5,
+      "v": 6
+    },
+    {
+      "sign": 1,
+      "u": 5,
+      "v": 12
+    },
+    {
+      "sign": -1,
+      "u": 6,
+      "v": 7
+    },
+    {
+      "sign": -1,
+      "u": 6,
+      "v": 12
+    },
+    {
+      "sign": -1,
+      "u": 6,
+      "v": 13
+    },
+    {
+      "sign": -1,
+      "u": 7,
+      "v": 8
+    },
+    {
+      "sign": -1,
+      "u": 7,
+      "v": 9
+    },
+    {
+      "sign": 1,
+      "u": 7,
+      "v": 13
+    },
+    {
+      "sign": 1,
+      "u": 8,
+      "v": 9
+    },
+    {
+      "sign": -1,
+      "u": 9,
+      "v": 10
+    },
+    {
+      "sign": -1,
+      "u": 9,
+      "v": 14
+    },
+    {
+      "sign": -1,
+      "u": 10,
+      "v": 11
+    },
+    {
+      "sign": -1,
+      "u": 10,
+      "v": 12
+    },
+    {
+      "sign": 1,
+      "u": 10,
+      "v": 14
+    },
+    {
+      "sign": 1,
+      "u": 11,
+      "v": 12
+    }
+  ],
+  "signed_orbit_count_on_q3_profile_matches": 8,
+  "signed_orbits_on_q3_profile_matches": [
+    [
+      [
+        5,
+        8,
+        13,
+        14
+      ]
+    ],
+    [
+      [
+        8,
+        12,
+        13,
+        14
+      ]
+    ],
+    [
+      [
+        5,
+        8,
+        11,
+        13
+      ]
+    ],
+    [
+      [
+        8,
+        11,
+        13,
+        14
+      ]
+    ],
+    [
+      [
+        5,
+        8,
+        11,
+        14
+      ]
+    ],
+    [
+      [
+        0,
+        12,
+        13,
+        14
+      ]
+    ],
+    [
+      [
+        5,
+        11,
+        13,
+        14
+      ]
+    ],
+    [
+      [
+        0,
+        11,
+        13,
+        14
+      ]
+    ]
+  ],
+  "status": "signed_g15_q3_automorphism_search_recorded",
+  "target_q3": [
+    5,
+    11,
+    13,
+    14
+  ],
+  "unsigned_automorphism_count": 120
+}
