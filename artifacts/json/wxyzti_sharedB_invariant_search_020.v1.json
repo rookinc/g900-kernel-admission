@@ -1,0 +1,1316 @@
+{
+  "boundary": "This audits realized shared_B rows only. It does not generate the shared_B candidate set and does not close Gap A.",
+  "global_constant_delta_count": 14,
+  "global_constant_deltas_first_30": [
+    {
+      "coeffs": [
+        0,
+        1,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        2,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "2*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        3,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "3*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        4,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "4*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        5,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "5*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        6,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "6*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        7,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "7*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        8,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "8*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        9,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "9*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        10,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "10*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        11,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "11*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        12,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "12*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        13,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "13*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        14,
+        0
+      ],
+      "constant_delta": 0,
+      "expr": "14*B mod 15",
+      "row_count": 12
+    }
+  ],
+  "global_invariant_count": 14,
+  "global_invariants_first_30": [
+    {
+      "coeffs": [
+        0,
+        1,
+        0
+      ],
+      "expr": "B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        2,
+        0
+      ],
+      "expr": "2*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        3,
+        0
+      ],
+      "expr": "3*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        4,
+        0
+      ],
+      "expr": "4*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        5,
+        0
+      ],
+      "expr": "5*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        6,
+        0
+      ],
+      "expr": "6*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        7,
+        0
+      ],
+      "expr": "7*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        8,
+        0
+      ],
+      "expr": "8*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        9,
+        0
+      ],
+      "expr": "9*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        10,
+        0
+      ],
+      "expr": "10*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        11,
+        0
+      ],
+      "expr": "11*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        12,
+        0
+      ],
+      "expr": "12*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        13,
+        0
+      ],
+      "expr": "13*B mod 15",
+      "row_count": 12
+    },
+    {
+      "coeffs": [
+        0,
+        14,
+        0
+      ],
+      "expr": "14*B mod 15",
+      "row_count": 12
+    }
+  ],
+  "input": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_station_transform_map_audit_019.v1.json",
+  "interpretation": "This searches for linear mod-15 invariants or constant-delta quantities under shared_B transforms on (A,B,C).",
+  "role_results": {
+    "IW": {
+      "constant_delta_count": 14,
+      "constant_deltas_first_30": [
+        {
+          "coeffs": [
+            0,
+            1,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            2,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "2*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            3,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "3*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            4,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "4*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            5,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "5*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            6,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "6*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            7,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "7*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            8,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "8*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            9,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "9*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            10,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "10*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            11,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "11*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            12,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "12*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            13,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "13*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            14,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "14*B mod 15",
+          "row_count": 4
+        }
+      ],
+      "invariant_count": 14,
+      "invariants_first_30": [
+        {
+          "coeffs": [
+            0,
+            1,
+            0
+          ],
+          "expr": "B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            2,
+            0
+          ],
+          "expr": "2*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            3,
+            0
+          ],
+          "expr": "3*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            4,
+            0
+          ],
+          "expr": "4*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            5,
+            0
+          ],
+          "expr": "5*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            6,
+            0
+          ],
+          "expr": "6*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            7,
+            0
+          ],
+          "expr": "7*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            8,
+            0
+          ],
+          "expr": "8*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            9,
+            0
+          ],
+          "expr": "9*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            10,
+            0
+          ],
+          "expr": "10*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            11,
+            0
+          ],
+          "expr": "11*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            12,
+            0
+          ],
+          "expr": "12*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            13,
+            0
+          ],
+          "expr": "13*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            14,
+            0
+          ],
+          "expr": "14*B mod 15",
+          "row_count": 4
+        }
+      ],
+      "row_count": 4,
+      "rows": [
+        {
+          "delta_ABC": [
+            7,
+            0,
+            9
+          ],
+          "from_ABC": [
+            2,
+            13,
+            1
+          ],
+          "to_ABC": [
+            9,
+            13,
+            10
+          ]
+        },
+        {
+          "delta_ABC": [
+            6,
+            0,
+            12
+          ],
+          "from_ABC": [
+            1,
+            11,
+            2
+          ],
+          "to_ABC": [
+            7,
+            11,
+            14
+          ]
+        },
+        {
+          "delta_ABC": [
+            4,
+            0,
+            10
+          ],
+          "from_ABC": [
+            12,
+            2,
+            5
+          ],
+          "to_ABC": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "delta_ABC": [
+            8,
+            0,
+            12
+          ],
+          "from_ABC": [
+            10,
+            4,
+            5
+          ],
+          "to_ABC": [
+            3,
+            4,
+            2
+          ]
+        }
+      ]
+    },
+    "XY": {
+      "constant_delta_count": 14,
+      "constant_deltas_first_30": [
+        {
+          "coeffs": [
+            0,
+            1,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            2,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "2*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            3,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "3*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            4,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "4*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            5,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "5*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            6,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "6*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            7,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "7*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            8,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "8*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            9,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "9*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            10,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "10*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            11,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "11*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            12,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "12*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            13,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "13*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            14,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "14*B mod 15",
+          "row_count": 4
+        }
+      ],
+      "invariant_count": 14,
+      "invariants_first_30": [
+        {
+          "coeffs": [
+            0,
+            1,
+            0
+          ],
+          "expr": "B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            2,
+            0
+          ],
+          "expr": "2*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            3,
+            0
+          ],
+          "expr": "3*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            4,
+            0
+          ],
+          "expr": "4*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            5,
+            0
+          ],
+          "expr": "5*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            6,
+            0
+          ],
+          "expr": "6*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            7,
+            0
+          ],
+          "expr": "7*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            8,
+            0
+          ],
+          "expr": "8*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            9,
+            0
+          ],
+          "expr": "9*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            10,
+            0
+          ],
+          "expr": "10*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            11,
+            0
+          ],
+          "expr": "11*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            12,
+            0
+          ],
+          "expr": "12*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            13,
+            0
+          ],
+          "expr": "13*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            14,
+            0
+          ],
+          "expr": "14*B mod 15",
+          "row_count": 4
+        }
+      ],
+      "row_count": 4,
+      "rows": [
+        {
+          "delta_ABC": [
+            9,
+            0,
+            3
+          ],
+          "from_ABC": [
+            1,
+            0,
+            2
+          ],
+          "to_ABC": [
+            10,
+            0,
+            5
+          ]
+        },
+        {
+          "delta_ABC": [
+            9,
+            0,
+            1
+          ],
+          "from_ABC": [
+            3,
+            2,
+            4
+          ],
+          "to_ABC": [
+            12,
+            2,
+            5
+          ]
+        },
+        {
+          "delta_ABC": [
+            11,
+            0,
+            6
+          ],
+          "from_ABC": [
+            7,
+            14,
+            11
+          ],
+          "to_ABC": [
+            3,
+            14,
+            2
+          ]
+        },
+        {
+          "delta_ABC": [
+            6,
+            0,
+            3
+          ],
+          "from_ABC": [
+            9,
+            10,
+            13
+          ],
+          "to_ABC": [
+            0,
+            10,
+            1
+          ]
+        }
+      ]
+    },
+    "ZT": {
+      "constant_delta_count": 14,
+      "constant_deltas_first_30": [
+        {
+          "coeffs": [
+            0,
+            1,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            2,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "2*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            3,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "3*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            4,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "4*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            5,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "5*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            6,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "6*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            7,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "7*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            8,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "8*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            9,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "9*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            10,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "10*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            11,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "11*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            12,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "12*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            13,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "13*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            14,
+            0
+          ],
+          "constant_delta": 0,
+          "expr": "14*B mod 15",
+          "row_count": 4
+        }
+      ],
+      "invariant_count": 14,
+      "invariants_first_30": [
+        {
+          "coeffs": [
+            0,
+            1,
+            0
+          ],
+          "expr": "B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            2,
+            0
+          ],
+          "expr": "2*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            3,
+            0
+          ],
+          "expr": "3*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            4,
+            0
+          ],
+          "expr": "4*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            5,
+            0
+          ],
+          "expr": "5*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            6,
+            0
+          ],
+          "expr": "6*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            7,
+            0
+          ],
+          "expr": "7*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            8,
+            0
+          ],
+          "expr": "8*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            9,
+            0
+          ],
+          "expr": "9*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            10,
+            0
+          ],
+          "expr": "10*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            11,
+            0
+          ],
+          "expr": "11*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            12,
+            0
+          ],
+          "expr": "12*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            13,
+            0
+          ],
+          "expr": "13*B mod 15",
+          "row_count": 4
+        },
+        {
+          "coeffs": [
+            0,
+            14,
+            0
+          ],
+          "expr": "14*B mod 15",
+          "row_count": 4
+        }
+      ],
+      "row_count": 4,
+      "rows": [
+        {
+          "delta_ABC": [
+            2,
+            0,
+            2
+          ],
+          "from_ABC": [
+            10,
+            5,
+            0
+          ],
+          "to_ABC": [
+            12,
+            5,
+            2
+          ]
+        },
+        {
+          "delta_ABC": [
+            13,
+            0,
+            2
+          ],
+          "from_ABC": [
+            12,
+            5,
+            2
+          ],
+          "to_ABC": [
+            10,
+            5,
+            4
+          ]
+        },
+        {
+          "delta_ABC": [
+            2,
+            0,
+            3
+          ],
+          "from_ABC": [
+            0,
+            1,
+            10
+          ],
+          "to_ABC": [
+            2,
+            1,
+            13
+          ]
+        },
+        {
+          "delta_ABC": [
+            13,
+            0,
+            12
+          ],
+          "from_ABC": [
+            3,
+            2,
+            14
+          ],
+          "to_ABC": [
+            1,
+            2,
+            11
+          ]
+        }
+      ]
+    }
+  },
+  "sharedB_row_count": 12,
+  "status": "wxyzti_sharedB_invariant_search_recorded"
+}
