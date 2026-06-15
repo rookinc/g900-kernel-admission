@@ -1,0 +1,819 @@
+{
+  "boundary": "If exact for the target, this derives the 12 directed C-transition pairs from signed-G15 adjacency plus the selected A/B/C block circulation and channel order. It still does not derive the A/B/C blocks or channel order from G60-native structure, and it does not close Gap A.",
+  "candidate_count": 2,
+  "candidate_scores": [
+    {
+      "A": [
+        0,
+        2,
+        5,
+        10
+      ],
+      "B": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "C": [
+        1,
+        2,
+        14
+      ],
+      "channel_rows": [
+        {
+          "channel": "WX/ZT",
+          "derived_count": 5,
+          "derived_pairs": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              10,
+              11
+            ]
+          ],
+          "exact_match": false,
+          "expected_count": 4,
+          "expected_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              14,
+              11
+            ]
+          ],
+          "extra_pairs": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              10,
+              11
+            ]
+          ],
+          "missing_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              14,
+              11
+            ]
+          ],
+          "sign_counts": {
+            "-1": 4,
+            "1": 1
+          },
+          "source_block": "A",
+          "source_values": [
+            0,
+            2,
+            5,
+            10
+          ],
+          "target_block": "B",
+          "target_values": [
+            2,
+            4,
+            11,
+            13
+          ]
+        },
+        {
+          "channel": "TI/XY",
+          "derived_count": 5,
+          "derived_pairs": [
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              13,
+              2
+            ]
+          ],
+          "exact_match": false,
+          "expected_count": 4,
+          "expected_pairs": [
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "extra_pairs": [
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              2
+            ]
+          ],
+          "missing_pairs": [
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "sign_counts": {
+            "-1": 3,
+            "1": 2
+          },
+          "source_block": "B",
+          "source_values": [
+            2,
+            4,
+            11,
+            13
+          ],
+          "target_block": "C",
+          "target_values": [
+            1,
+            2,
+            14
+          ]
+        },
+        {
+          "channel": "IW/YZ",
+          "derived_count": 3,
+          "derived_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              14,
+              10
+            ]
+          ],
+          "exact_match": false,
+          "expected_count": 4,
+          "expected_pairs": [
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "extra_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              14,
+              10
+            ]
+          ],
+          "missing_pairs": [
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "sign_counts": {
+            "-1": 2,
+            "1": 1
+          },
+          "source_block": "C",
+          "source_values": [
+            1,
+            2,
+            14
+          ],
+          "target_block": "A",
+          "target_values": [
+            0,
+            2,
+            5,
+            10
+          ]
+        }
+      ],
+      "derived_transition_count": 13,
+      "exact_signed_edge_derivation": false,
+      "expected_transition_count": 12,
+      "index": 2,
+      "is_target": false,
+      "total_extra_count": 12,
+      "total_extra_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          10
+        ]
+      ],
+      "total_missing_count": 11,
+      "total_missing_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          11
+        ]
+      ]
+    },
+    {
+      "A": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "B": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "C": [
+        1,
+        2,
+        5
+      ],
+      "channel_rows": [
+        {
+          "channel": "WX/ZT",
+          "derived_count": 5,
+          "derived_pairs": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              14,
+              4
+            ]
+          ],
+          "exact_match": false,
+          "expected_count": 4,
+          "expected_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              14,
+              11
+            ]
+          ],
+          "extra_pairs": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              14,
+              4
+            ]
+          ],
+          "missing_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              14,
+              11
+            ]
+          ],
+          "sign_counts": {
+            "-1": 4,
+            "1": 1
+          },
+          "source_block": "A",
+          "source_values": [
+            0,
+            2,
+            10,
+            14
+          ],
+          "target_block": "B",
+          "target_values": [
+            2,
+            4,
+            11,
+            13
+          ]
+        },
+        {
+          "channel": "TI/XY",
+          "derived_count": 5,
+          "derived_pairs": [
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              13,
+              2
+            ]
+          ],
+          "exact_match": false,
+          "expected_count": 4,
+          "expected_pairs": [
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "extra_pairs": [
+            [
+              2,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              2
+            ]
+          ],
+          "missing_pairs": [
+            [
+              2,
+              5
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "sign_counts": {
+            "-1": 3,
+            "1": 2
+          },
+          "source_block": "B",
+          "source_values": [
+            2,
+            4,
+            11,
+            13
+          ],
+          "target_block": "C",
+          "target_values": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "channel": "IW/YZ",
+          "derived_count": 3,
+          "derived_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "exact_match": false,
+          "expected_count": 4,
+          "expected_pairs": [
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "extra_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "missing_pairs": [
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "sign_counts": {
+            "-1": 2,
+            "1": 1
+          },
+          "source_block": "C",
+          "source_values": [
+            1,
+            2,
+            5
+          ],
+          "target_block": "A",
+          "target_values": [
+            0,
+            2,
+            10,
+            14
+          ]
+        }
+      ],
+      "derived_transition_count": 13,
+      "exact_signed_edge_derivation": false,
+      "expected_transition_count": 12,
+      "index": 3,
+      "is_target": true,
+      "total_extra_count": 10,
+      "total_extra_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          4
+        ]
+      ],
+      "total_missing_count": 9,
+      "total_missing_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          11
+        ]
+      ]
+    }
+  ],
+  "channel_order": [
+    [
+      "WX/ZT",
+      "A",
+      "B"
+    ],
+    [
+      "TI/XY",
+      "B",
+      "C"
+    ],
+    [
+      "IW/YZ",
+      "C",
+      "A"
+    ]
+  ],
+  "exact_signed_edge_derivation_count": 0,
+  "input_selector": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/role_block_directed_transition_selector_006c.v1.json",
+  "input_signed_g15": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/signed_g15_q3_automorphism_search_001.v1.json",
+  "interpretation": "This tests whether the directed C-transition table is obtained by orienting the signed-G15 cut edges from each source block to the next target block in the role-channel circulation.",
+  "non_target_selected_count": 0,
+  "selected_indices": [],
+  "status": "role_block_signed_edge_transition_derivation_recorded",
+  "target_selected": false
+}
