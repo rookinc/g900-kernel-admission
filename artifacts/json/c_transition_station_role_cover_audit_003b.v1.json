@@ -1,0 +1,251 @@
+{
+  "all_pairs_have_expected_delta_somewhere": true,
+  "all_pairs_have_one_diad_one_coupler": true,
+  "all_pairs_have_two_station_roles": true,
+  "boundary": "This clarifies WXYZTI overlay multiplicity. It does not derive the 12 C-transitions from native G60 structure and does not close Gap A.",
+  "canonical_transition_count": 12,
+  "interpretation": "The corrected cover test maps station roles WX/YZ/TI to reverse_partner and XY/ZT/IW to shared_B. It asks whether each canonical C-transition has exactly one diad station role and one coupler station role.",
+  "pair_rows": [
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 2,
+      "from_C": 0,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 0,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "WX",
+        "ZT"
+      ],
+      "to_C": 2
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 9,
+      "from_C": 1,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 0,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "IW",
+        "YZ"
+      ],
+      "to_C": 10
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 2,
+      "from_C": 2,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 0,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "WX",
+        "ZT"
+      ],
+      "to_C": 4
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 3,
+      "from_C": 2,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 0,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "TI",
+        "XY"
+      ],
+      "to_C": 5
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 12,
+      "from_C": 2,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 0,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "IW",
+        "YZ"
+      ],
+      "to_C": 14
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 1,
+      "from_C": 4,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 0,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "TI",
+        "XY"
+      ],
+      "to_C": 5
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 55,
+      "from_C": 5,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 3,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "IW",
+        "YZ"
+      ],
+      "to_C": 0
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 57,
+      "from_C": 5,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 3,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "IW",
+        "YZ"
+      ],
+      "to_C": 2
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 3,
+      "from_C": 10,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 0,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "WX",
+        "ZT"
+      ],
+      "to_C": 13
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 51,
+      "from_C": 11,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 3,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "TI",
+        "XY"
+      ],
+      "to_C": 2
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 48,
+      "from_C": 13,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 3,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "TI",
+        "XY"
+      ],
+      "to_C": 1
+    },
+    {
+      "exact_delta_role_count": 2,
+      "expected_fiber_delta": 57,
+      "from_C": 14,
+      "has_expected_delta_somewhere": true,
+      "lift_q": 3,
+      "role_classes": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "semantic_station_role_count": 2,
+      "station_roles": [
+        "WX",
+        "ZT"
+      ],
+      "to_C": 11
+    }
+  ],
+  "q_counts_by_transition_type": {
+    "0": 7,
+    "3": 5
+  },
+  "raw_station_role_row_count": 72,
+  "role_class_counts": {
+    "reverse_partner": 12,
+    "shared_B": 12
+  },
+  "role_class_rule": {
+    "reverse_partner": [
+      "TI",
+      "WX",
+      "YZ"
+    ],
+    "shared_B": [
+      "IW",
+      "XY",
+      "ZT"
+    ]
+  },
+  "scanned_files": [
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_overlay_delta_generator_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_delta_lift_decomposition_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json"
+  ],
+  "semantic_station_role_row_count": 24,
+  "station_role_counts": {
+    "IW": 4,
+    "TI": 4,
+    "WX": 4,
+    "XY": 4,
+    "YZ": 4,
+    "ZT": 4
+  },
+  "station_role_cover_confirmed": true,
+  "status": "c_transition_station_role_cover_audit_recorded"
+}
