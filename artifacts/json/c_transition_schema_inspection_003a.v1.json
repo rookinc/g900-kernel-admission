@@ -1,0 +1,3126 @@
+{
+  "candidate_row_count": 190,
+  "canonical_pair_row_count": 142,
+  "canonical_summary": [
+    {
+      "delta_fields": {
+        "base_delta_mod15=2": 3,
+        "fiber_delta=2": 2,
+        "predicted_delta=2": 4
+      },
+      "expected_fiber_delta": 2,
+      "pair": [
+        0,
+        2
+      ],
+      "role_counts": {
+        "WX": 4,
+        "ZT": 4,
+        "none": 3
+      },
+      "row_count": 11
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=9": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=9": 2,
+        "predicted_delta=9": 4
+      },
+      "expected_fiber_delta": 9,
+      "pair": [
+        1,
+        10
+      ],
+      "role_counts": {
+        "IW": 4,
+        "YZ": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=2": 3,
+        "fiber_delta=2": 2,
+        "predicted_delta=2": 4
+      },
+      "expected_fiber_delta": 2,
+      "pair": [
+        2,
+        4
+      ],
+      "role_counts": {
+        "WX": 4,
+        "ZT": 4,
+        "none": 3
+      },
+      "row_count": 11
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=3": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=3": 2,
+        "predicted_delta=3": 4
+      },
+      "expected_fiber_delta": 3,
+      "pair": [
+        2,
+        5
+      ],
+      "role_counts": {
+        "TI": 4,
+        "XY": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=12": 4,
+        "fiber_delta=12": 2,
+        "fiber_delta=2": 1,
+        "predicted_delta=12": 4
+      },
+      "expected_fiber_delta": 12,
+      "pair": [
+        2,
+        14
+      ],
+      "role_counts": {
+        "IW": 4,
+        "YZ": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=1": 4,
+        "fiber_delta=1": 2,
+        "fiber_delta=2": 1,
+        "predicted_delta=1": 4
+      },
+      "expected_fiber_delta": 1,
+      "pair": [
+        4,
+        5
+      ],
+      "role_counts": {
+        "TI": 4,
+        "XY": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=10": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=55": 2,
+        "predicted_delta=55": 4
+      },
+      "expected_fiber_delta": 55,
+      "pair": [
+        5,
+        0
+      ],
+      "role_counts": {
+        "IW": 4,
+        "YZ": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=12": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=57": 2,
+        "predicted_delta=57": 4
+      },
+      "expected_fiber_delta": 57,
+      "pair": [
+        5,
+        2
+      ],
+      "role_counts": {
+        "IW": 4,
+        "YZ": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=3": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=3": 2,
+        "predicted_delta=3": 4
+      },
+      "expected_fiber_delta": 3,
+      "pair": [
+        10,
+        13
+      ],
+      "role_counts": {
+        "WX": 4,
+        "ZT": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=6": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=51": 2,
+        "predicted_delta=51": 4
+      },
+      "expected_fiber_delta": 51,
+      "pair": [
+        11,
+        2
+      ],
+      "role_counts": {
+        "TI": 4,
+        "XY": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=3": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=48": 2,
+        "predicted_delta=48": 4
+      },
+      "expected_fiber_delta": 48,
+      "pair": [
+        13,
+        1
+      ],
+      "role_counts": {
+        "TI": 4,
+        "XY": 4,
+        "none": 4
+      },
+      "row_count": 12
+    },
+    {
+      "delta_fields": {
+        "base_delta_mod15=12": 4,
+        "fiber_delta=2": 1,
+        "fiber_delta=57": 2,
+        "predicted_delta=57": 4
+      },
+      "expected_fiber_delta": 57,
+      "pair": [
+        14,
+        11
+      ],
+      "role_counts": {
+        "WX": 4,
+        "ZT": 4,
+        "none": 4
+      },
+      "row_count": 12
+    }
+  ],
+  "exact_delta_row_count": 84,
+  "failed_loads": [],
+  "first_40_exact_delta_rows": [
+    {
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_value": 0,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.canonical_transition_rows[0]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 9,
+        "fiber_delta": 9
+      },
+      "from_value": 1,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.canonical_transition_rows[1]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 10
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.canonical_transition_rows[2]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 4
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.canonical_transition_rows[3]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 12
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.canonical_transition_rows[4]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 14
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 1,
+        "fiber_delta": 1
+      },
+      "from_value": 4,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.canonical_transition_rows[5]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 10,
+        "fiber_delta": 55
+      },
+      "from_value": 5,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.canonical_transition_rows[6]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 0
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_value": 5,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.canonical_transition_rows[7]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_value": 10,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.canonical_transition_rows[8]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 13
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 6,
+        "fiber_delta": 51
+      },
+      "from_value": 11,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.canonical_transition_rows[9]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 48
+      },
+      "from_value": 13,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.canonical_transition_rows[10]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 1
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_value": 14,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.canonical_transition_rows[11]",
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_value": 11
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_value": 0,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[0]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 9,
+        "fiber_delta": 2
+      },
+      "from_value": 1,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[1]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 10
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[2]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 4
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 2
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[3]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 2
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[4]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 14
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 1,
+        "fiber_delta": 2
+      },
+      "from_value": 4,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[5]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 2
+      },
+      "from_value": 10,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[8]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 13
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 9,
+        "fiber_delta": 9
+      },
+      "from_value": 1,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[12]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 10
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[13]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 12
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[14]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 14
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 1,
+        "fiber_delta": 1
+      },
+      "from_value": 4,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[15]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 10,
+        "fiber_delta": 55
+      },
+      "from_value": 5,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.transition_role_rows[16]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 0
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_value": 5,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.transition_role_rows[17]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_value": 10,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta",
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[18]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 13
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 6,
+        "fiber_delta": 51
+      },
+      "from_value": 11,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.transition_role_rows[19]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 48
+      },
+      "from_value": 13,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.transition_role_rows[20]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 1
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_value": 14,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "fiber_delta"
+      ],
+      "path": "root.transition_role_rows[21]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 11
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 2
+      },
+      "from_value": 0,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[22]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 9
+      },
+      "from_value": 1,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[23]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 10
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 2
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[24]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 4
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[25]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 12
+      },
+      "from_value": 2,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[26]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 14
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 1
+      },
+      "from_value": 4,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[27]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 5
+    },
+    {
+      "deltas": {
+        "base_delta_mod15": 3
+      },
+      "from_value": 10,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "matching_delta_fields": [
+        "base_delta_mod15"
+      ],
+      "path": "root.transition_role_rows[30]",
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_value": 13
+    },
+    {
+      "deltas": {
+        "predicted_delta": 2
+      },
+      "from_value": 0,
+      "keys": [
+        "c_delta_mod15",
+        "edge_role",
+        "from_C",
+        "from_fiber",
+        "label",
+        "lift_q_mod4",
+        "predicted_delta",
+        "to_C",
+        "to_fiber"
+      ],
+      "matching_delta_fields": [
+        "predicted_delta"
+      ],
+      "path": "root.members_by_from_c.0[0]",
+      "role_value": "WX",
+      "source": "from_c_lift_q_overlay_delta_formula_001.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "predicted_delta": 2
+      },
+      "from_value": 0,
+      "keys": [
+        "c_delta_mod15",
+        "edge_role",
+        "from_C",
+        "from_fiber",
+        "label",
+        "lift_q_mod4",
+        "predicted_delta",
+        "to_C",
+        "to_fiber"
+      ],
+      "matching_delta_fields": [
+        "predicted_delta"
+      ],
+      "path": "root.members_by_from_c.0[1]",
+      "role_value": "ZT",
+      "source": "from_c_lift_q_overlay_delta_formula_001.v1.json",
+      "to_value": 2
+    },
+    {
+      "deltas": {
+        "predicted_delta": 9
+      },
+      "from_value": 1,
+      "keys": [
+        "c_delta_mod15",
+        "edge_role",
+        "from_C",
+        "from_fiber",
+        "label",
+        "lift_q_mod4",
+        "predicted_delta",
+        "to_C",
+        "to_fiber"
+      ],
+      "matching_delta_fields": [
+        "predicted_delta"
+      ],
+      "path": "root.members_by_from_c.1[0]",
+      "role_value": "YZ",
+      "source": "from_c_lift_q_overlay_delta_formula_001.v1.json",
+      "to_value": 10
+    },
+    {
+      "deltas": {
+        "predicted_delta": 9
+      },
+      "from_value": 1,
+      "keys": [
+        "c_delta_mod15",
+        "edge_role",
+        "from_C",
+        "from_fiber",
+        "label",
+        "lift_q_mod4",
+        "predicted_delta",
+        "to_C",
+        "to_fiber"
+      ],
+      "matching_delta_fields": [
+        "predicted_delta"
+      ],
+      "path": "root.members_by_from_c.1[1]",
+      "role_value": "IW",
+      "source": "from_c_lift_q_overlay_delta_formula_001.v1.json",
+      "to_value": 10
+    }
+  ],
+  "first_60_canonical_pair_rows": [
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 0,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(0, 2)[0]",
+      "role_key": "edge_role",
+      "role_value": "WX",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 0,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(0, 2)[1]",
+      "role_key": "edge_role",
+      "role_value": "ZT",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 9,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 1,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(1, 10)[0]",
+      "role_key": "edge_role",
+      "role_value": "YZ",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 10
+    },
+    {
+      "canonical_delta": 9,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 1,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(1, 10)[1]",
+      "role_key": "edge_role",
+      "role_value": "IW",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 10
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(2, 4)[0]",
+      "role_key": "edge_role",
+      "role_value": "WX",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 4
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(2, 4)[1]",
+      "role_key": "edge_role",
+      "role_value": "ZT",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 4
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(2, 5)[0]",
+      "role_key": "edge_role",
+      "role_value": "XY",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(2, 5)[1]",
+      "role_key": "edge_role",
+      "role_value": "TI",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 12,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(2, 14)[0]",
+      "role_key": "edge_role",
+      "role_value": "YZ",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 14
+    },
+    {
+      "canonical_delta": 12,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(2, 14)[1]",
+      "role_key": "edge_role",
+      "role_value": "IW",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 14
+    },
+    {
+      "canonical_delta": 1,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 4,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(4, 5)[0]",
+      "role_key": "edge_role",
+      "role_value": "XY",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 1,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 4,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(4, 5)[1]",
+      "role_key": "edge_role",
+      "role_value": "TI",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 55,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(5, 0)[0]",
+      "role_key": "edge_role",
+      "role_value": "YZ",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 0
+    },
+    {
+      "canonical_delta": 55,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(5, 0)[1]",
+      "role_key": "edge_role",
+      "role_value": "IW",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 0
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(5, 2)[0]",
+      "role_key": "edge_role",
+      "role_value": "YZ",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(5, 2)[1]",
+      "role_key": "edge_role",
+      "role_value": "IW",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 10,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(10, 13)[0]",
+      "role_key": "edge_role",
+      "role_value": "WX",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 13
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 10,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(10, 13)[1]",
+      "role_key": "edge_role",
+      "role_value": "ZT",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 13
+    },
+    {
+      "canonical_delta": 51,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 11,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(11, 2)[0]",
+      "role_key": "edge_role",
+      "role_value": "XY",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 51,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 11,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(11, 2)[1]",
+      "role_key": "edge_role",
+      "role_value": "TI",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 48,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 13,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(13, 1)[0]",
+      "role_key": "edge_role",
+      "role_value": "XY",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 1
+    },
+    {
+      "canonical_delta": 48,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 13,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(13, 1)[1]",
+      "role_key": "edge_role",
+      "role_value": "TI",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 1
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 14,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(14, 11)[0]",
+      "role_key": "edge_role",
+      "role_value": "WX",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 11
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {},
+      "from_key": "from_C",
+      "from_value": 14,
+      "has_from_to": true,
+      "keys": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_slot"
+      ],
+      "path": "root.rule_members.(14, 11)[1]",
+      "role_key": "edge_role",
+      "role_value": "ZT",
+      "source": "c_transition_overlay_delta_generator_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 11
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 0,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[0]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 9,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 9,
+        "fiber_delta": 9
+      },
+      "from_key": "from_C",
+      "from_value": 1,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[1]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 10
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[2]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 4
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[3]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 12,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 12
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[4]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 14
+    },
+    {
+      "canonical_delta": 1,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 1,
+        "fiber_delta": 1
+      },
+      "from_key": "from_C",
+      "from_value": 4,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[5]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 55,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 10,
+        "fiber_delta": 55
+      },
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[6]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 0
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[7]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_key": "from_C",
+      "from_value": 10,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[8]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 13
+    },
+    {
+      "canonical_delta": 51,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 6,
+        "fiber_delta": 51
+      },
+      "from_key": "from_C",
+      "from_value": 11,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[9]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 48,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 48
+      },
+      "from_key": "from_C",
+      "from_value": 13,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[10]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 1
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_key": "from_C",
+      "from_value": 14,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.canonical_transition_rows[11]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_canonical_audit_002.v1.json",
+      "to_key": "to_C",
+      "to_value": 11
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 0,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[0]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 9,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 9,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 1,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[1]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 10
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 2,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[2]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 4
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[3]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 12,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[4]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 14
+    },
+    {
+      "canonical_delta": 1,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 1,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 4,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[5]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 55,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 10,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[6]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 0
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[7]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 10,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[8]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 13
+    },
+    {
+      "canonical_delta": 51,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 6,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 11,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[9]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 48,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 13,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[10]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 1
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 2
+      },
+      "from_key": "from_C",
+      "from_value": 14,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[11]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 11
+    },
+    {
+      "canonical_delta": 9,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 9,
+        "fiber_delta": 9
+      },
+      "from_key": "from_C",
+      "from_value": 1,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[12]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 10
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[13]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 12,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 12
+      },
+      "from_key": "from_C",
+      "from_value": 2,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[14]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 14
+    },
+    {
+      "canonical_delta": 1,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 1,
+        "fiber_delta": 1
+      },
+      "from_key": "from_C",
+      "from_value": 4,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[15]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 5
+    },
+    {
+      "canonical_delta": 55,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 10,
+        "fiber_delta": 55
+      },
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[16]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 0
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_key": "from_C",
+      "from_value": 5,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[17]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 3,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 3
+      },
+      "from_key": "from_C",
+      "from_value": 10,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[18]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 13
+    },
+    {
+      "canonical_delta": 51,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 6,
+        "fiber_delta": 51
+      },
+      "from_key": "from_C",
+      "from_value": 11,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[19]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 48,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 3,
+        "fiber_delta": 48
+      },
+      "from_key": "from_C",
+      "from_value": 13,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[20]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 1
+    },
+    {
+      "canonical_delta": 57,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 12,
+        "fiber_delta": 57
+      },
+      "from_key": "from_C",
+      "from_value": 14,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[21]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 11
+    },
+    {
+      "canonical_delta": 2,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 2
+      },
+      "from_key": "from_C",
+      "from_value": 0,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[22]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 2
+    },
+    {
+      "canonical_delta": 9,
+      "canonical_pair": true,
+      "deltas": {
+        "base_delta_mod15": 9
+      },
+      "from_key": "from_C",
+      "from_value": 1,
+      "has_from_to": true,
+      "keys": [
+        "base_delta_mod15",
+        "fiber_delta",
+        "from_C",
+        "from_in_q0",
+        "from_in_q3",
+        "lift_q",
+        "signed_g15_edge_sign_between_endpoints",
+        "to_C",
+        "to_in_q0",
+        "to_in_q3"
+      ],
+      "path": "root.transition_role_rows[23]",
+      "role_key": null,
+      "role_value": null,
+      "source": "c_transition_support_partition_audit_001.v1.json",
+      "to_key": "to_C",
+      "to_value": 10
+    }
+  ],
+  "interpretation": "This inspection checks where C-transition rows, role labels, and delta fields actually live before attempting the WXYZTI two-cover audit.",
+  "scanned_file_count": 9,
+  "scanned_files": [
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_delta_lift_decomposition_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_overlay_delta_generator_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_support_canonical_audit_002.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_support_partition_audit_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/context_dependent_overlay_delta_rules_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_partition_g15_sign_census_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_partition_native_context_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json"
+  ],
+  "status": "c_transition_schema_inspection_recorded",
+  "with_from_to_count": 142
+}
