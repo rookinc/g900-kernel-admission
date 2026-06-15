@@ -1,0 +1,354 @@
+{
+  "boundary": "This selects by directed WXYZTI transition compatibility. It does not derive the transition table from G60-native structure and does not close Gap A.",
+  "candidate_count": 2,
+  "canonical_transitions_by_channel": {
+    "IW/YZ": [
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "TI/XY": [
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        13,
+        1
+      ]
+    ],
+    "WX/ZT": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        14,
+        11
+      ]
+    ]
+  },
+  "channel_order": [
+    [
+      "WX/ZT",
+      "A",
+      "B"
+    ],
+    [
+      "TI/XY",
+      "B",
+      "C"
+    ],
+    [
+      "IW/YZ",
+      "C",
+      "A"
+    ]
+  ],
+  "exact_directed_transition_cover_count": 1,
+  "input_circulation": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_role_block_circulation_audit_005.v1.json",
+  "input_matches": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/role_block_full_profile_match_inspection_006b.v1.json",
+  "interpretation": "This compares the two observed-union/junction-2 full-profile matches against the actual directed 12 C-transition table under the channel order WX/ZT:A->B, TI/XY:B->C, IW/YZ:C->A.",
+  "non_target_selected_count": 0,
+  "scored_candidates": [
+    {
+      "A": [
+        0,
+        2,
+        5,
+        10
+      ],
+      "B": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "C": [
+        1,
+        2,
+        14
+      ],
+      "block_equals_target_A": false,
+      "block_equals_target_B": true,
+      "block_equals_target_C": false,
+      "channel_scores": [
+        {
+          "all_expected_present": false,
+          "channel": "WX/ZT",
+          "expected_transition_count": 4,
+          "extra_possible_count": 13,
+          "matched": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ]
+          ],
+          "matched_count": 3,
+          "missing": [
+            [
+              14,
+              11
+            ]
+          ],
+          "missing_count": 1,
+          "source_block": "A",
+          "target_block": "B"
+        },
+        {
+          "all_expected_present": false,
+          "channel": "TI/XY",
+          "expected_transition_count": 4,
+          "extra_possible_count": 10,
+          "matched": [
+            [
+              11,
+              2
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "matched_count": 2,
+          "missing": [
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "missing_count": 2,
+          "source_block": "B",
+          "target_block": "C"
+        },
+        {
+          "all_expected_present": false,
+          "channel": "IW/YZ",
+          "expected_transition_count": 4,
+          "extra_possible_count": 11,
+          "matched": [
+            [
+              1,
+              10
+            ]
+          ],
+          "matched_count": 1,
+          "missing": [
+            [
+              2,
+              14
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "missing_count": 3,
+          "source_block": "C",
+          "target_block": "A"
+        }
+      ],
+      "exact_directed_transition_cover": false,
+      "index": 2,
+      "is_target": false,
+      "junction": 2,
+      "q0_subset_union": true,
+      "q3_subset_union": true,
+      "total_matched_directed_transitions": 6,
+      "total_missing_directed_transitions": 6,
+      "union": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        13,
+        14
+      ],
+      "union_equals_observed": true
+    },
+    {
+      "A": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "B": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "C": [
+        1,
+        2,
+        5
+      ],
+      "block_equals_target_A": true,
+      "block_equals_target_B": true,
+      "block_equals_target_C": true,
+      "channel_scores": [
+        {
+          "all_expected_present": true,
+          "channel": "WX/ZT",
+          "expected_transition_count": 4,
+          "extra_possible_count": 12,
+          "matched": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              14,
+              11
+            ]
+          ],
+          "matched_count": 4,
+          "missing": [],
+          "missing_count": 0,
+          "source_block": "A",
+          "target_block": "B"
+        },
+        {
+          "all_expected_present": true,
+          "channel": "TI/XY",
+          "expected_transition_count": 4,
+          "extra_possible_count": 8,
+          "matched": [
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "matched_count": 4,
+          "missing": [],
+          "missing_count": 0,
+          "source_block": "B",
+          "target_block": "C"
+        },
+        {
+          "all_expected_present": true,
+          "channel": "IW/YZ",
+          "expected_transition_count": 4,
+          "extra_possible_count": 8,
+          "matched": [
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "matched_count": 4,
+          "missing": [],
+          "missing_count": 0,
+          "source_block": "C",
+          "target_block": "A"
+        }
+      ],
+      "exact_directed_transition_cover": true,
+      "index": 3,
+      "is_target": true,
+      "junction": 2,
+      "q0_subset_union": true,
+      "q3_subset_union": true,
+      "total_matched_directed_transitions": 12,
+      "total_missing_directed_transitions": 0,
+      "union": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        13,
+        14
+      ],
+      "union_equals_observed": true
+    }
+  ],
+  "selected_indices": [
+    3
+  ],
+  "status": "role_block_directed_transition_selector_recorded",
+  "target_selected": true
+}
