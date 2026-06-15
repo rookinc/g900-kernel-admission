@@ -1,0 +1,175 @@
+{
+  "all_circulation_matches": true,
+  "block_complement": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "block_complement_equals_unobserved": true,
+  "block_rows": [
+    {
+      "from_block": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "q_counts": {
+        "0": 3,
+        "3": 1
+      },
+      "role_pair": "WX/ZT",
+      "to_block": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "transition_count": 4
+    },
+    {
+      "from_block": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "role_pair": "TI/XY",
+      "to_block": [
+        1,
+        2,
+        5
+      ],
+      "transition_count": 4
+    },
+    {
+      "from_block": [
+        1,
+        2,
+        5
+      ],
+      "q_counts": {
+        "0": 2,
+        "3": 2
+      },
+      "role_pair": "IW/YZ",
+      "to_block": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "transition_count": 4
+    }
+  ],
+  "block_union": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    10,
+    11,
+    13,
+    14
+  ],
+  "block_union_equals_observed": true,
+  "boundary": "This is a WXYZTI role-channel circulation result. It does not derive the circulation from G60-native structure and does not close Gap A.",
+  "circulation_checks": [
+    {
+      "from_role_pair": "WX/ZT",
+      "matches": true,
+      "next_from": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "this_to": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "to_role_pair": "TI/XY"
+    },
+    {
+      "from_role_pair": "TI/XY",
+      "matches": true,
+      "next_from": [
+        1,
+        2,
+        5
+      ],
+      "this_to": [
+        1,
+        2,
+        5
+      ],
+      "to_role_pair": "IW/YZ"
+    },
+    {
+      "from_role_pair": "IW/YZ",
+      "matches": true,
+      "next_from": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "this_to": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "to_role_pair": "WX/ZT"
+    }
+  ],
+  "input": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json",
+  "interpretation": "The role-pair channels form a three-step circulation of overlapping C-support blocks. The to-block of each channel is the from-block of the next channel in the order WX/ZT -> TI/XY -> IW/YZ -> WX/ZT. The union of the three from-blocks is the observed C support, and their common intersection is C=2.",
+  "pairwise_from_block_intersections": [
+    {
+      "a": "WX/ZT",
+      "b": "TI/XY",
+      "intersection": [
+        2
+      ],
+      "size": 1
+    },
+    {
+      "a": "WX/ZT",
+      "b": "IW/YZ",
+      "intersection": [
+        2
+      ],
+      "size": 1
+    },
+    {
+      "a": "TI/XY",
+      "b": "IW/YZ",
+      "intersection": [
+        2
+      ],
+      "size": 1
+    }
+  ],
+  "role_pair_order": [
+    "WX/ZT",
+    "TI/XY",
+    "IW/YZ"
+  ],
+  "shared_junction_is_2": true,
+  "status": "c_transition_role_block_circulation_audit_recorded",
+  "triple_from_block_intersection": [
+    2
+  ],
+  "triple_intersection_size": 1
+}
