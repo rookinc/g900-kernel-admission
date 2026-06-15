@@ -1,0 +1,899 @@
+{
+  "boundary": "This does not close Gap A. It may derive observed support from WXYZTI transition rows, but not from G60-native structure. If support_equals_observed is true, the next task is to derive the transition support itself from station constraints or native oriented structure.",
+  "input_sources": [
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_overlay_delta_generator_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_delta_lift_decomposition_001.v1.json",
+    "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json"
+  ],
+  "interpretation": "This audits the C-transition support without using q labels as the selector. It checks whether observed/unobserved is exactly the support/complement of the ordered C-transition digraph, then records how q0 and q3 sit inside that support.",
+  "observed_locked": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    10,
+    11,
+    13,
+    14
+  ],
+  "q0": [
+    0,
+    1,
+    2,
+    4,
+    10
+  ],
+  "q0_cut_to_transition_complement": {
+    "edge_count": 6,
+    "neg": 5,
+    "none": 24,
+    "pos": 1
+  },
+  "q0_cut_to_transition_support": {
+    "edge_count": 14,
+    "neg": 10,
+    "none": 26,
+    "pos": 4
+  },
+  "q0_subset_of_transition_support": true,
+  "q3": [
+    5,
+    11,
+    13,
+    14
+  ],
+  "q3_cut_to_transition_complement": {
+    "edge_count": 8,
+    "neg": 4,
+    "none": 16,
+    "pos": 4
+  },
+  "q3_cut_to_transition_support": {
+    "edge_count": 8,
+    "neg": 4,
+    "none": 24,
+    "pos": 4
+  },
+  "q3_subset_of_transition_support": true,
+  "status": "c_transition_support_partition_audit_recorded",
+  "support_summary": {
+    "complement": [
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "complement_equals_unobserved": true,
+    "delta_by_pair": {
+      "0->2": null,
+      "1->10": null,
+      "10->13": null,
+      "11->2": null,
+      "13->1": null,
+      "14->11": null,
+      "2->14": null,
+      "2->4": null,
+      "2->5": null,
+      "4->5": null,
+      "5->0": null,
+      "5->2": null
+    },
+    "node_rows": [
+      {
+        "C": 0,
+        "deltas_when_source": [
+          2,
+          null
+        ],
+        "in_degree": 3,
+        "in_observed_locked": true,
+        "in_q0": true,
+        "in_q3": false,
+        "in_support": true,
+        "out_degree": 2,
+        "total_transition_degree": 5
+      },
+      {
+        "C": 1,
+        "deltas_when_source": [
+          2,
+          9,
+          null
+        ],
+        "in_degree": 3,
+        "in_observed_locked": true,
+        "in_q0": true,
+        "in_q3": false,
+        "in_support": true,
+        "out_degree": 3,
+        "total_transition_degree": 6
+      },
+      {
+        "C": 2,
+        "deltas_when_source": [
+          2,
+          2,
+          2,
+          3,
+          12,
+          null,
+          null,
+          null
+        ],
+        "in_degree": 8,
+        "in_observed_locked": true,
+        "in_q0": true,
+        "in_q3": false,
+        "in_support": true,
+        "out_degree": 8,
+        "total_transition_degree": 16
+      },
+      {
+        "C": 3,
+        "deltas_when_source": [],
+        "in_degree": 0,
+        "in_observed_locked": false,
+        "in_q0": false,
+        "in_q3": false,
+        "in_support": false,
+        "out_degree": 0,
+        "total_transition_degree": 0
+      },
+      {
+        "C": 4,
+        "deltas_when_source": [
+          2,
+          1,
+          null
+        ],
+        "in_degree": 2,
+        "in_observed_locked": true,
+        "in_q0": true,
+        "in_q3": false,
+        "in_support": true,
+        "out_degree": 3,
+        "total_transition_degree": 5
+      },
+      {
+        "C": 5,
+        "deltas_when_source": [
+          2,
+          2,
+          55,
+          57,
+          null,
+          null
+        ],
+        "in_degree": 6,
+        "in_observed_locked": true,
+        "in_q0": false,
+        "in_q3": true,
+        "in_support": true,
+        "out_degree": 6,
+        "total_transition_degree": 12
+      },
+      {
+        "C": 6,
+        "deltas_when_source": [],
+        "in_degree": 0,
+        "in_observed_locked": false,
+        "in_q0": false,
+        "in_q3": false,
+        "in_support": false,
+        "out_degree": 0,
+        "total_transition_degree": 0
+      },
+      {
+        "C": 7,
+        "deltas_when_source": [],
+        "in_degree": 0,
+        "in_observed_locked": false,
+        "in_q0": false,
+        "in_q3": false,
+        "in_support": false,
+        "out_degree": 0,
+        "total_transition_degree": 0
+      },
+      {
+        "C": 8,
+        "deltas_when_source": [],
+        "in_degree": 0,
+        "in_observed_locked": false,
+        "in_q0": false,
+        "in_q3": false,
+        "in_support": false,
+        "out_degree": 0,
+        "total_transition_degree": 0
+      },
+      {
+        "C": 9,
+        "deltas_when_source": [],
+        "in_degree": 0,
+        "in_observed_locked": false,
+        "in_q0": false,
+        "in_q3": false,
+        "in_support": false,
+        "out_degree": 0,
+        "total_transition_degree": 0
+      },
+      {
+        "C": 10,
+        "deltas_when_source": [
+          2,
+          3,
+          null
+        ],
+        "in_degree": 3,
+        "in_observed_locked": true,
+        "in_q0": true,
+        "in_q3": false,
+        "in_support": true,
+        "out_degree": 3,
+        "total_transition_degree": 6
+      },
+      {
+        "C": 11,
+        "deltas_when_source": [
+          2,
+          51,
+          null
+        ],
+        "in_degree": 3,
+        "in_observed_locked": true,
+        "in_q0": false,
+        "in_q3": true,
+        "in_support": true,
+        "out_degree": 3,
+        "total_transition_degree": 6
+      },
+      {
+        "C": 12,
+        "deltas_when_source": [],
+        "in_degree": 0,
+        "in_observed_locked": false,
+        "in_q0": false,
+        "in_q3": false,
+        "in_support": false,
+        "out_degree": 0,
+        "total_transition_degree": 0
+      },
+      {
+        "C": 13,
+        "deltas_when_source": [
+          2,
+          48,
+          null
+        ],
+        "in_degree": 3,
+        "in_observed_locked": true,
+        "in_q0": false,
+        "in_q3": true,
+        "in_support": true,
+        "out_degree": 3,
+        "total_transition_degree": 6
+      },
+      {
+        "C": 14,
+        "deltas_when_source": [
+          2,
+          57,
+          null
+        ],
+        "in_degree": 3,
+        "in_observed_locked": true,
+        "in_q0": false,
+        "in_q3": true,
+        "in_support": true,
+        "out_degree": 3,
+        "total_transition_degree": 6
+      }
+    ],
+    "support": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "support_equals_observed": true
+  },
+  "transition_count": 34,
+  "transition_pairs": [
+    [
+      0,
+      2,
+      null
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      1,
+      10,
+      null
+    ],
+    [
+      1,
+      10,
+      2
+    ],
+    [
+      1,
+      10,
+      9
+    ],
+    [
+      2,
+      4,
+      null
+    ],
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      2,
+      5,
+      null
+    ],
+    [
+      2,
+      5,
+      2
+    ],
+    [
+      2,
+      5,
+      3
+    ],
+    [
+      2,
+      14,
+      null
+    ],
+    [
+      2,
+      14,
+      2
+    ],
+    [
+      2,
+      14,
+      12
+    ],
+    [
+      4,
+      5,
+      null
+    ],
+    [
+      4,
+      5,
+      1
+    ],
+    [
+      4,
+      5,
+      2
+    ],
+    [
+      5,
+      0,
+      null
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      5,
+      0,
+      55
+    ],
+    [
+      5,
+      2,
+      null
+    ],
+    [
+      5,
+      2,
+      2
+    ],
+    [
+      5,
+      2,
+      57
+    ],
+    [
+      10,
+      13,
+      null
+    ],
+    [
+      10,
+      13,
+      2
+    ],
+    [
+      10,
+      13,
+      3
+    ],
+    [
+      11,
+      2,
+      null
+    ],
+    [
+      11,
+      2,
+      2
+    ],
+    [
+      11,
+      2,
+      51
+    ],
+    [
+      13,
+      1,
+      null
+    ],
+    [
+      13,
+      1,
+      2
+    ],
+    [
+      13,
+      1,
+      48
+    ],
+    [
+      14,
+      11,
+      null
+    ],
+    [
+      14,
+      11,
+      2
+    ],
+    [
+      14,
+      11,
+      57
+    ]
+  ],
+  "transition_role_rows": [
+    {
+      "base_delta_mod15": 2,
+      "fiber_delta": 2,
+      "from_C": 0,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 9,
+      "fiber_delta": 2,
+      "from_C": 1,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 10,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 2,
+      "fiber_delta": 2,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 4,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": 2,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 5,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": 2,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 14,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 1,
+      "fiber_delta": 2,
+      "from_C": 4,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": -1,
+      "to_C": 5,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 10,
+      "fiber_delta": 2,
+      "from_C": 5,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": 1,
+      "to_C": 0,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": 2,
+      "from_C": 5,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": 2,
+      "from_C": 10,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 13,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 6,
+      "fiber_delta": 2,
+      "from_C": 11,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": -1,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": 2,
+      "from_C": 13,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 1,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": 2,
+      "from_C": 14,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 11,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 9,
+      "fiber_delta": 9,
+      "from_C": 1,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 10,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": 3,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 5,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": 12,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 14,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 1,
+      "fiber_delta": 1,
+      "from_C": 4,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": -1,
+      "to_C": 5,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 10,
+      "fiber_delta": 55,
+      "from_C": 5,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": 1,
+      "to_C": 0,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": 57,
+      "from_C": 5,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": 3,
+      "from_C": 10,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": 0,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 13,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 6,
+      "fiber_delta": 51,
+      "from_C": 11,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": -1,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": 48,
+      "from_C": 13,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 1,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": 57,
+      "from_C": 14,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": 3,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 11,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 2,
+      "fiber_delta": null,
+      "from_C": 0,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 9,
+      "fiber_delta": null,
+      "from_C": 1,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 10,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 2,
+      "fiber_delta": null,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 4,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": null,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 5,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": null,
+      "from_C": 2,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 14,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 1,
+      "fiber_delta": null,
+      "from_C": 4,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": -1,
+      "to_C": 5,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 10,
+      "fiber_delta": null,
+      "from_C": 5,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": 1,
+      "to_C": 0,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": null,
+      "from_C": 5,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": null,
+      "from_C": 10,
+      "from_in_q0": true,
+      "from_in_q3": false,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 13,
+      "to_in_q0": false,
+      "to_in_q3": true
+    },
+    {
+      "base_delta_mod15": 6,
+      "fiber_delta": null,
+      "from_C": 11,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": -1,
+      "to_C": 2,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 3,
+      "fiber_delta": null,
+      "from_C": 13,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 1,
+      "to_in_q0": true,
+      "to_in_q3": false
+    },
+    {
+      "base_delta_mod15": 12,
+      "fiber_delta": null,
+      "from_C": 14,
+      "from_in_q0": false,
+      "from_in_q3": true,
+      "lift_q": null,
+      "signed_g15_edge_sign_between_endpoints": null,
+      "to_C": 11,
+      "to_in_q0": false,
+      "to_in_q3": true
+    }
+  ],
+  "unobserved_disjoint_from_transition_support": true,
+  "unobserved_locked": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    12
+  ]
+}
