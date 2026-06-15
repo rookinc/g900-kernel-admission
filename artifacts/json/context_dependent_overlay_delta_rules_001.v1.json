@@ -1,0 +1,570 @@
+{
+  "schema": "context_dependent_overlay_delta_rules_001.v1",
+  "status": "context_dependent_overlay_delta_rule_found",
+  "timestamp_utc": "2026-06-15T14:02:32.083935+00:00",
+  "purpose": "Search whether WXYZTI overlay fiber deltas are determined by small source-native feature contexts.",
+  "summary": {
+    "edge_count": 24,
+    "feature_count": 17,
+    "tested_feature_sets": 3213,
+    "exact_feature_set_count": 1641,
+    "least_exact_feature_sets": [
+      {
+        "features": [
+          "from_C",
+          "to_C"
+        ],
+        "group_count": 12,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_A"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "from_C",
+          "to_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "to_C",
+          "from_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "from_C",
+          "to_C",
+          "same_C"
+        ],
+        "group_count": 12,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_B",
+          "to_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_slot",
+          "slot_delta_mod15"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_slot",
+          "to_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_slot",
+          "to_slot"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "slot_delta_mod15",
+          "from_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "slot_delta_mod15",
+          "to_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_slot",
+          "from_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_slot",
+          "slot_delta_mod15"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "from_B"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "from_C"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "from_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "same_A"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      }
+    ],
+    "best_near_miss_feature_sets": [
+      {
+        "features": [
+          "from_C",
+          "to_C"
+        ],
+        "group_count": 12,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_A"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "from_C",
+          "to_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "to_C",
+          "from_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "from_C",
+          "to_C",
+          "same_C"
+        ],
+        "group_count": 12,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_B",
+          "to_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_slot",
+          "slot_delta_mod15"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_slot",
+          "to_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_slot",
+          "to_slot"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "slot_delta_mod15",
+          "from_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "slot_delta_mod15",
+          "to_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_slot",
+          "from_B"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "to_slot",
+          "slot_delta_mod15"
+        ],
+        "group_count": 23,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "from_B"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "from_C"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "from_columns_key"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      },
+      {
+        "features": [
+          "edge_role",
+          "from_A",
+          "same_A"
+        ],
+        "group_count": 24,
+        "exact": true,
+        "ambiguous_group_count": 0,
+        "ambiguous_groups_sample": {}
+      }
+    ],
+    "delta_by_label": {
+      "reverse_partner": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "9": 1,
+        "12": 1,
+        "48": 1,
+        "51": 1,
+        "55": 1,
+        "57": 2
+      },
+      "shared_B": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "9": 1,
+        "12": 1,
+        "48": 1,
+        "51": 1,
+        "55": 1,
+        "57": 2
+      }
+    },
+    "delta_by_role": {
+      "IW": {
+        "9": 1,
+        "12": 1,
+        "55": 1,
+        "57": 1
+      },
+      "TI": {
+        "1": 1,
+        "3": 1,
+        "48": 1,
+        "51": 1
+      },
+      "WX": {
+        "2": 2,
+        "3": 1,
+        "57": 1
+      },
+      "XY": {
+        "1": 1,
+        "3": 1,
+        "48": 1,
+        "51": 1
+      },
+      "YZ": {
+        "9": 1,
+        "12": 1,
+        "55": 1,
+        "57": 1
+      },
+      "ZT": {
+        "2": 2,
+        "3": 1,
+        "57": 1
+      }
+    },
+    "delta_by_label_role": {
+      "('reverse_partner', 'TI')": {
+        "1": 1,
+        "3": 1,
+        "48": 1,
+        "51": 1
+      },
+      "('reverse_partner', 'WX')": {
+        "2": 2,
+        "3": 1,
+        "57": 1
+      },
+      "('reverse_partner', 'YZ')": {
+        "9": 1,
+        "12": 1,
+        "55": 1,
+        "57": 1
+      },
+      "('shared_B', 'IW')": {
+        "9": 1,
+        "12": 1,
+        "55": 1,
+        "57": 1
+      },
+      "('shared_B', 'XY')": {
+        "1": 1,
+        "3": 1,
+        "48": 1,
+        "51": 1
+      },
+      "('shared_B', 'ZT')": {
+        "2": 2,
+        "3": 1,
+        "57": 1
+      }
+    },
+    "context_dependent_delta_rule_found": true,
+    "gap_a_closed": false,
+    "full_g900_admission_found": false,
+    "next_step": "lift_exact_context_delta_rule_to_g60_native_map"
+  },
+  "checks": [
+    {
+      "id": "previous_search_loaded",
+      "status": true,
+      "detail": "g60_native_overlay_generator_not_found_in_tested_family"
+    },
+    {
+      "id": "edge_count_24",
+      "status": true,
+      "detail": 24
+    },
+    {
+      "id": "feature_tests_ran",
+      "status": true,
+      "detail": 3213
+    },
+    {
+      "id": "no_gap_a_claim_made",
+      "status": true,
+      "detail": "context feature search only"
+    }
+  ],
+  "boundary": [
+    "This searches delta determinism, not full edge generation.",
+    "A found rule is a candidate context law, not Gap A closure.",
+    "Failure refutes only the tested small feature family.",
+    "This does not prove full G900."
+  ]
+}
