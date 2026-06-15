@@ -1,0 +1,610 @@
+{
+  "schema": "from_c_lift_partition_native_context_001.v1",
+  "status": "from_c_lift_partition_native_context_recorded",
+  "timestamp_utc": "2026-06-15T14:14:44.535392+00:00",
+  "purpose": "Inspect native G15/sign/Petersen context for the observed from_C -> q lift partition.",
+  "summary": {
+    "observed_from_C_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "unobserved_C_values": [
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "q0_values": [
+      0,
+      1,
+      2,
+      4,
+      10
+    ],
+    "q3_values": [
+      5,
+      11,
+      13,
+      14
+    ],
+    "q0_size": 5,
+    "q3_size": 4,
+    "g15_edge_count": 30,
+    "subset_reports": {
+      "q0": {
+        "nodes": [
+          0,
+          1,
+          2,
+          4,
+          10
+        ],
+        "size": 5,
+        "induced_edge_count": 3,
+        "induced_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "induced_sign_profile": {
+          "-1": 3
+        },
+        "boundary_edge_count": 14,
+        "boundary_sign_profile": {
+          "-1": 9,
+          "1": 5
+        },
+        "degree_profile": {
+          "0": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          },
+          "1": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          },
+          "2": {
+            "total": 4,
+            "inside": 1,
+            "outside": 3
+          },
+          "4": {
+            "total": 4,
+            "inside": 1,
+            "outside": 3
+          },
+          "10": {
+            "total": 4,
+            "inside": 0,
+            "outside": 4
+          }
+        },
+        "distance_to_subset": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1,
+          "6": 2,
+          "7": 2,
+          "8": 1,
+          "9": 1,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1
+        }
+      },
+      "q3": {
+        "nodes": [
+          5,
+          11,
+          13,
+          14
+        ],
+        "size": 4,
+        "induced_edge_count": 0,
+        "induced_edges": [],
+        "induced_sign_profile": {},
+        "boundary_edge_count": 16,
+        "boundary_sign_profile": {
+          "-1": 8,
+          "1": 8
+        },
+        "degree_profile": {
+          "5": {
+            "total": 4,
+            "inside": 0,
+            "outside": 4
+          },
+          "11": {
+            "total": 4,
+            "inside": 0,
+            "outside": 4
+          },
+          "13": {
+            "total": 4,
+            "inside": 0,
+            "outside": 4
+          },
+          "14": {
+            "total": 4,
+            "inside": 0,
+            "outside": 4
+          }
+        },
+        "distance_to_subset": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 2,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0
+        }
+      },
+      "observed": {
+        "nodes": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          10,
+          11,
+          13,
+          14
+        ],
+        "size": 9,
+        "induced_edge_count": 11,
+        "induced_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            10,
+            14
+          ]
+        ],
+        "induced_sign_profile": {
+          "-1": 7,
+          "1": 4
+        },
+        "boundary_edge_count": 14,
+        "boundary_sign_profile": {
+          "-1": 9,
+          "1": 5
+        },
+        "degree_profile": {
+          "0": {
+            "total": 4,
+            "inside": 3,
+            "outside": 1
+          },
+          "1": {
+            "total": 4,
+            "inside": 3,
+            "outside": 1
+          },
+          "2": {
+            "total": 4,
+            "inside": 3,
+            "outside": 1
+          },
+          "4": {
+            "total": 4,
+            "inside": 3,
+            "outside": 1
+          },
+          "5": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          },
+          "10": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          },
+          "11": {
+            "total": 4,
+            "inside": 3,
+            "outside": 1
+          },
+          "13": {
+            "total": 4,
+            "inside": 1,
+            "outside": 3
+          },
+          "14": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          }
+        },
+        "distance_to_subset": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0
+        }
+      },
+      "unobserved": {
+        "nodes": [
+          3,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "size": 6,
+        "induced_edge_count": 5,
+        "induced_edges": [
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "induced_sign_profile": {
+          "-1": 4,
+          "1": 1
+        },
+        "boundary_edge_count": 14,
+        "boundary_sign_profile": {
+          "-1": 9,
+          "1": 5
+        },
+        "degree_profile": {
+          "3": {
+            "total": 4,
+            "inside": 0,
+            "outside": 4
+          },
+          "6": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          },
+          "7": {
+            "total": 4,
+            "inside": 3,
+            "outside": 1
+          },
+          "8": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          },
+          "9": {
+            "total": 4,
+            "inside": 2,
+            "outside": 2
+          },
+          "12": {
+            "total": 4,
+            "inside": 1,
+            "outside": 3
+          }
+        },
+        "distance_to_subset": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 1,
+          "14": 1
+        }
+      }
+    },
+    "candidate_petersen_reports": {
+      "q0": {
+        "candidate_decoded_petersen_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "candidate_petersen_vertex_counts": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "7": 1
+        }
+      },
+      "q3": {
+        "candidate_decoded_petersen_edges": [
+          [
+            0,
+            5
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "candidate_petersen_vertex_counts": {
+          "0": 1,
+          "5": 2,
+          "6": 1,
+          "7": 1,
+          "8": 2,
+          "9": 1
+        }
+      },
+      "observed": {
+        "candidate_decoded_petersen_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "candidate_petersen_vertex_counts": {
+          "0": 3,
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 3,
+          "6": 1,
+          "7": 2,
+          "8": 2,
+          "9": 1
+        }
+      },
+      "unobserved": {
+        "candidate_decoded_petersen_edges": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            9,
+            6
+          ]
+        ],
+        "candidate_petersen_vertex_counts": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "6": 2,
+          "7": 1,
+          "8": 1,
+          "9": 2
+        }
+      }
+    },
+    "interpretation": "Inspects whether the observed from_C lift partition has a native G15/Petersen/sign profile.",
+    "gap_a_closed": false,
+    "full_g900_admission_found": false,
+    "next_step": "compare_from_c_partition_against_g15_sign_orbits_and_old_hyperxi_involutions"
+  },
+  "checks": [
+    {
+      "id": "formula_loaded",
+      "status": true,
+      "detail": "from_c_lift_q_overlay_delta_formula_found"
+    },
+    {
+      "id": "bundle_loaded",
+      "status": true,
+      "detail": "g60_native_generator_input_bundle_built"
+    },
+    {
+      "id": "g15_edges_30",
+      "status": true,
+      "detail": 30
+    },
+    {
+      "id": "rule_observed_9",
+      "status": true,
+      "detail": 9
+    },
+    {
+      "id": "q_values_0_3",
+      "status": true,
+      "detail": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "4": 0,
+        "5": 3,
+        "10": 0,
+        "11": 3,
+        "13": 3,
+        "14": 3
+      }
+    },
+    {
+      "id": "no_gap_a_claim_made",
+      "status": true,
+      "detail": "partition context inspection only"
+    }
+  ],
+  "boundary": [
+    "This is an inspection of the observed from_C partition.",
+    "Only 9 of 15 C values appear in the WXYZTI overlay rows.",
+    "Candidate Petersen decoding is provisional unless independently aligned.",
+    "This does not close Gap A.",
+    "This does not prove full G900."
+  ]
+}
