@@ -42,3 +42,15 @@ Therefore nonexpected_pair_role_row_count = 0 should not be read as a proof that
 The useful result is that the 24 realized semantic rows expose station/provenance fields such as from_A, from_B, from_C, from_slot, from_fiber, to_A, to_B, to_C, to_slot, and to_fiber.
 
 The next task is to inspect whether the realized rows obey simple provenance laws by station role, role class, role pair, or source fields.
+
+## Reading
+
+This is a schema/provenance inspection, not a selector.
+
+The scanned artifacts only contain realized WXYZTI station-role transition rows. They do not contain a generated universe of nonexpected role-compatible candidate pairs.
+
+Therefore nonexpected_pair_role_row_count = 0 should not be read as a proof that station features select the expected rows from all possible rows.
+
+The useful result is that the 24 realized semantic rows expose station/provenance fields such as from_A, from_B, from_C, from_slot, from_fiber, to_A, to_B, to_C, to_slot, and to_fiber.
+
+The next task is to inspect whether the realized rows obey simple provenance laws by station role, role class, role pair, or source fields.
