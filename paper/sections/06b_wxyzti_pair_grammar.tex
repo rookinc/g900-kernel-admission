@@ -1,0 +1,126 @@
+\section{Reciprocal WXYZTI pair grammar}
+
+The preceding sections close the bounded admission theorem for the 900-vertex candidate itself. This section records a later certificate-backed local overlay audit associated with the same project directory. It is not used as an additional hypothesis in the kernel-admission theorem above, and it does not enlarge the theorem statement. Its purpose is to preserve a finite witness grammar discovered after the graph-level admission package had already closed.
+
+The audited object is a WXYZTI station overlay consisting of 24 realized station rows. These rows split into two role classes:
+\[
+\texttt{reverse\_partner}
+\qquad\text{and}\qquad
+\texttt{shared\_B}.
+\]
+The role labels are internal audit labels. They do not assert a physical interpretation.
+
+\subsection{Role-class transform laws}
+
+The reverse-partner rows are exactly governed by the station transform
+\[
+(A,B,C)\longmapsto (A,C,B).
+\]
+Thus reverse-partner rows preserve \(A\) and exchange the \(B\)- and \(C\)-positions in the station register. In the realized audit, this law holds over all 12 reverse-partner rows.
+
+Equivalently, for every reverse-partner row,
+\[
+A_{\mathrm{to}}=A_{\mathrm{from}},
+\qquad
+C_{\mathrm{to}}=B_{\mathrm{from}},
+\qquad
+B_{\mathrm{to}}=C_{\mathrm{from}}.
+\]
+The same audit records the slot equalities
+\[
+C_{\mathrm{to}}=\mathrm{slot}_{\mathrm{from}},
+\qquad
+\mathrm{slot}_{\mathrm{to}}=C_{\mathrm{from}}.
+\]
+
+The shared-\(B\) rows obey a different law. They preserve \(B\) and the slot coordinate:
+\[
+B_{\mathrm{to}}=B_{\mathrm{from}},
+\qquad
+\mathrm{slot}_{\mathrm{to}}=\mathrm{slot}_{\mathrm{from}}.
+\]
+A linear invariant search over the realized shared-\(B\) rows found no additional global linear invariant involving \(A\) and \(C\) in the tested family. The only substantive global invariant recovered by that search was preservation of \(B\), with its nonzero scalar multiples over \(\mathbb{Z}/15\mathbb{Z}\).
+
+\subsection{Reciprocal answer-pair coupling}
+
+The stronger result is not a single-row formula. Each realized directed transition is represented by a reciprocal pair:
+\[
+(S,R),
+\]
+where \(S\) is a shared-\(B\) row and \(R\) is a reverse-partner row. The pair is keyed by
+\[
+(\texttt{role\_pair}, C_{\mathrm{from}}, C_{\mathrm{to}}).
+\]
+The audit found
+\[
+\text{pair count}=12,
+\qquad
+\text{bad bucket count}=0.
+\]
+For all 12 realized reciprocal pairs, the following quantities agree:
+\[
+\texttt{role\_pair},\quad
+C_{\mathrm{from}},\quad
+C_{\mathrm{to}},\quad
+\Delta C,\quad
+\texttt{integer\_C\_delta},\quad
+\texttt{lift\_q}.
+\]
+
+The cross-coupling law is:
+\[
+S.C_{\mathrm{to}}=R.B_{\mathrm{from}}=R.\mathrm{slot}_{\mathrm{from}},
+\]
+and
+\[
+R.B_{\mathrm{to}}=S.C_{\mathrm{from}},
+\qquad
+R.\mathrm{slot}_{\mathrm{to}}=S.C_{\mathrm{from}}.
+\]
+Thus the shared-\(B\) row does not determine its target \(C\) by a standalone affine source-field formula. Its target is supplied by the paired reverse-partner row.
+
+In compact form:
+
+\[
+\text{the pair is the unit.}
+\]
+
+Or, in the project language:
+
+\[
+\text{the witness is the nearest neighbor that answers back.}
+\]
+
+\subsection{Candidate-pair selector}
+
+The reciprocal grammar was then tested against a broader row-pair candidate universe. The candidate universe was formed by crossing every realized shared-\(B\) row with every realized reverse-partner row having the same role-pair channel. This produced
+\[
+48
+\]
+candidate pairings, with
+\[
+12
+\]
+expected realized answer-pairs.
+
+Individual selector conditions were insufficient. For example, equality of \(C_{\mathrm{from}}\), equality of \(C_{\mathrm{to}}\), equality of \(\Delta C\), and equality of \(\texttt{lift\_q}\) each admitted false positives. However, the compound reciprocal answer-pair grammar selected exactly the 12 realized answer-pairs:
+\[
+\text{accepted}=12,\qquad
+\text{false positives}=0,\qquad
+\text{misses}=0.
+\]
+The stricter grammar, which also includes agreement of \(C_{\mathrm{to}}\), \(\Delta C\), \(\texttt{integer\_C\_delta}\), and \(\texttt{lift\_q}\), was likewise exact.
+
+\subsection{Boundary of this overlay result}
+
+This section records a local audited overlay grammar. It does not close Gap A. It does not derive a \(G_{60}\)-native generator. It does not admit a new 900-vertex graph. It does not alter the bounded graph-admission theorem above.
+
+The current status is therefore:
+
+\[
+\text{reciprocal pair grammar exact over the realized row-pair candidate universe,}
+\]
+but
+\[
+\text{native generation of that universe remains open.}
+\]
